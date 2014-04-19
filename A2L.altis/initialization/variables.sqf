@@ -1,0 +1,2 @@
+//Functions
+functionsCompiled = 0;

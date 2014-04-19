@@ -1,0 +1,163 @@
+author = "TAW_Tonic /edit: synced Edited by rexee87";
+onLoadName = "Altis Life RPG v3.1.2";
+onLoadMission = "A RPG game mode developed by TAW_Tonic";
+joinUnassigned = 1;
+respawn = BASE;
+respawndelay = 10;
+disabledAI = true;
+disableChannels[]={0,1,2};
+enableDebugConsole = 1;
+
+class Header
+{
+	gameType = RPG;
+	minPlayers = 1;
+	maxPlayers = 75;
+};
+
+wreckLimit = 5;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 320;
+corpseLimit = 5;
+corpseRemovalMinTime = 10;
+corpseRemovalMaxTime = 30;
+
+#include "dialog\MasterHandler.h"
+
+class RscTitles
+{
+	#include "dialog\ui.hpp"
+	#include "dialog\progress.hpp"
+};
+
+class CfgFunctions
+{
+	#include "Functions.h"
+};
+
+class CfgSounds
+{
+  sounds[] = {};
+  class SirenLong
+  {
+    name = "SirenLong";
+    sound[] = {"\sounds\Siren_Long.ogg", 1.0, 1};
+    titles[] = {};
+  };
+    class tazersound
+  {
+    name = "Tazersound";
+    sound[] = {"\sounds\tazer.ogg", 0.25, 1};
+    titles[] = {};
+  };
+  
+    class car_lock
+  {
+    name = "car_lock";
+    sound[] = {"\sounds\vehicle_lock.ogg", 1.0, 1};
+    titles[] = {};
+  };
+	class unlock
+  {
+    name = "unlock";
+    sound[] = {"\sounds\vehicle_lock.ogg", 1.0, 1};
+    titles[] = {};
+  };
+  
+     class bankalarm
+  {
+    name = "bankalarm";
+    sound[] = {"\sounds\bankalarm.ogg", 1, 1};
+    titles[] = {};
+  };
+  
+};
+
+class CfgDebriefing
+{
+	class NotWhitelisted
+	{
+		title = "Mission Failed";
+		subtitle = "Du bist kein Polizist";
+		description = "Gehe bitte auf den Zivilen Bereich ueber oder bewerbe dich als Polizost.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+	
+	class Blacklisted
+	{
+		title = "Mission Failed";
+		subtitle = "You are blacklisted from cops";
+		description = "You are not allowed to be a cop due to previous actions and the admins have removed you from being a cop.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+};
+
+class CfgNotifications
+{
+	class DeliveryAssigned
+	{
+		title = "Delivery Job Accepted";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
+		description = "%1";
+		duration = 10;
+		priority = 7;
+	};
+	
+	class DeliveryFailed
+	{
+		title = "Delivery Job Failed";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskiconfailed_ca.paa";
+		description = "%1";
+		duration = 7;
+		priority = 7;
+	};
+	
+	class DeliverySucceeded
+	{
+		title = "Delivery Job Completed";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcondone_ca.paa";
+		description = "%1";
+		duration = 6;
+		priority = 6;
+	};
+	
+	class TextMessage
+	{
+		title = "SMS Income";
+		iconPicture = "icons\messagenew.paa";
+		description = "%1";
+		duration = 10;
+		priority = 6;
+	};
+	
+	class PoliceDispatch
+	{
+		title = "Polizei Ruf";
+		iconPicture = "icons\messagepolice.paa";
+		description = "%1";
+		duration = 10;
+		priority = 6;
+	};
+	
+	class AdminDispatch
+	{
+		title = "Admin Nachrichten Zenter";
+		iconPicture = "icons\messageadmin.paa";
+		description = "%1";
+		duration = 10;
+		priority = 6;
+	};
+	
+	class AdminMessage
+	{
+		title = "Admin Nachricht";
+		iconPicture = "icons\messageadmin.paa";
+		description = "%1";
+		duration = 10;
+		priority = 5;
+	};
+};

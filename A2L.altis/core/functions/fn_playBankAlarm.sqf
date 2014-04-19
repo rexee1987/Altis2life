@@ -1,0 +1,1 @@
+bank_obj say3D "bankalarm";
