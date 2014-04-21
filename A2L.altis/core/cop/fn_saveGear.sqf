@@ -42,7 +42,17 @@ _allowedItems =
 	"optic_MRCO",
 	"U_B_CombatUniform_mcam",
 	"H_Beret_blk_POLICE",
-	"B_Bergen_sgg"
+	"B_Bergen_sgg",
+	"16Rnd_9x21_Mag",
+	"SMG_02_ACO_F",
+	"30Rnd_65x39_caseless_mag",
+	"30Rnd_9x21_Mag",
+	"RPG32_F",
+	
+	
+	
+	
+	
 ];
 
 //Old format / code

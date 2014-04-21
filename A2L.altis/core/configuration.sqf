@@ -84,12 +84,12 @@ switch (playerSide) do
 {
 	case west: 
 	{
-		life_atmcash = 7500; //Starting Bank Money
+		life_atmcash = 60000; //Starting Bank Money
 		life_paycheck = 2000; //Paycheck Amount
 	};
 	case civilian: 
 	{
-		life_atmcash = 7500; //Starting Bank Money
+		life_atmcash = 60000; //Starting Bank Money
 		life_paycheck = 1750; //Paycheck Amount
 	};
 };
@@ -190,7 +190,7 @@ sell_array =
 [
 	["apple",40],
 	["heroinu",3500],
-	["heroinp",9500],
+	["heroinp",17500],
 	["salema",45],
 	["ornate",40],
 	["mackerel",175],
@@ -199,12 +199,12 @@ sell_array =
 	["catshark",300],
 	["rabbit",65],
 	["oilp",4000],
-	["turtle",20000],
+	["turtle",25000],
 	["water",5],
 	["coffee",5],
 	["turtlesoup",1000],
 	["donuts",60],
-	["marijuana",12000],
+	["marijuana",11000],
 	["tbacon",25],
 	["lockpick",75],
 	["pickaxe",750],
@@ -213,13 +213,13 @@ sell_array =
 	["froglegs",1000],
 	["froglsd",2800],
 	["cocaine",3500], 
-	["cocainep",12500],
+	["cocainep",15000],
 	["diamond",750],
-	["diamondc",18000],
-	["iron_r",3200],
-	["copper_r",6550],
-	["salt_r",2000],
-	["glass",2100],
+	["diamondc",15000],
+	["iron_r",2400],
+	["copper_r",2300],
+	["salt_r",2100],
+	["glass",1800],
 	["fuelF",500],
 	["spikeStrip",1200],
 	["cement",1950]

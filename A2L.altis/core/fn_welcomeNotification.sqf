@@ -6,11 +6,11 @@
 */
 format["Hallo %1 !",name player] hintC
 [
-	"Willkommen auf dem Altis Life RPG Server von ARG!",
+	"Willkommen auf dem Altis2life Server von A2L!",
 	"Die neue Standard-Aktionstaste ist [LINKS Windows], diese Belegung kannst du unter ESC ->Configure->Controls->Custom
 	'Use Action 10' beliebig aendern.",
-	"Wenn du Probleme mit den neuen Funktionen hast, wende dich an einen Admin (TS: 78.31.70.230:9987 oder melde dich im Forum unter www.altis-roleplay-gaming.de",
+	"Wenn du Probleme mit den neuen Funktionen hast, wende dich an einen Admin (TS: 78.31.70.230:9987 oder melde dich im Forum unter www.altis2life.de",
 	"Nun viel Spass beim spielen! Immer schoen an die Regeln halten!",
-	"Wirbt Spieler! Jeder der geworben wurde wird belohnt! Hierzu einfach eine PN an Rexee87!"
+	"Werbt Spieler! Es gibt dafür eine nette Belohnung!"
 ];
 	
