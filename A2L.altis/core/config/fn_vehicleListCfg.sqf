@@ -204,6 +204,134 @@ switch (_shop) do
 		};
 	}; 
 	
+	case "civ_car_4":
+	{
+		_return = 
+		[
+			["B_Quadbike_01_F",1500],
+			["C_Hatchback_01_F",5000],
+			["C_Offroad_01_F",20000],
+			["C_SUV_01_F",35000],
+			["C_Van_01_transport_F",50000],
+			["C_Van_01_box_F",70000]
+		];
+		if(__GETC__(life_donator) > 1) then
+		{
+			["B_Quadbike_01_F",1400],
+			["C_Hatchback_01_F",4500],
+			["C_Hatchback_01_sport_F",10000],
+			["C_Offroad_01_F",19000],
+			["C_SUV_01_F",33000],
+			["C_Van_01_transport_F",45000],
+			["C_Van_01_box_F",60000]
+		};
+		
+		if(__GETC__(life_donator) > 2) then
+		{
+			["B_Quadbike_01_F",1200],
+			["C_Hatchback_01_F",4000],
+			["C_Hatchback_01_sport_F",10000],
+			["C_Offroad_01_F",15000],
+			["C_SUV_01_F",31000],
+			["C_Van_01_transport_F",42000],
+			["C_Van_01_box_F",55000]
+		};
+		if(__GETC__(life_donator) > 3) then
+		{
+			["B_Quadbike_01_F",1100],
+			["C_Hatchback_01_F",3500],
+			["C_Hatchback_01_sport_F",10000],
+			["C_Offroad_01_F",12000],
+			["C_SUV_01_F",29000],
+			["C_Van_01_transport_F",40000],
+			["C_Van_01_box_F",50000]
+		};
+		if(__GETC__(life_donator) > 4) then
+		{
+			["B_Quadbike_01_F",1000],
+			["C_Hatchback_01_F",3000],
+			["C_Hatchback_01_sport_F",10000],
+			["C_Offroad_01_F",10000],
+			["C_SUV_01_F",27000],
+			["C_Van_01_transport_F",35000],
+			["C_Van_01_box_F",45000]
+		};
+		if(__GETC__(life_donator) > 5) then
+		{
+			["B_Quadbike_01_F",800],
+			["C_Hatchback_01_F",2500],
+			["C_Hatchback_01_sport_F",10000],
+			["C_Offroad_01_F",9500],
+			["C_SUV_01_F",25000],
+			["C_Van_01_transport_F",32000],
+			["C_Van_01_box_F",40000]
+		};
+	};
+	
+	case "civ_car_5":
+	{
+		_return = 
+		[
+			["B_Quadbike_01_F",1500],
+			["C_Hatchback_01_F",5000],
+			["C_Offroad_01_F",20000],
+			["C_SUV_01_F",35000],
+			["C_Van_01_transport_F",50000],
+			["C_Van_01_box_F",70000]
+		];
+		if(__GETC__(life_donator) > 1) then
+		{
+			["B_Quadbike_01_F",1400],
+			["C_Hatchback_01_F",4500],
+			["C_Hatchback_01_sport_F",10000],
+			["C_Offroad_01_F",19000],
+			["C_SUV_01_F",33000],
+			["C_Van_01_transport_F",45000],
+			["C_Van_01_box_F",60000]
+		};
+		
+		if(__GETC__(life_donator) > 2) then
+		{
+			["B_Quadbike_01_F",1200],
+			["C_Hatchback_01_F",4000],
+			["C_Hatchback_01_sport_F",10000],
+			["C_Offroad_01_F",15000],
+			["C_SUV_01_F",31000],
+			["C_Van_01_transport_F",42000],
+			["C_Van_01_box_F",55000]
+		};
+		if(__GETC__(life_donator) > 3) then
+		{
+			["B_Quadbike_01_F",1100],
+			["C_Hatchback_01_F",3500],
+			["C_Hatchback_01_sport_F",10000],
+			["C_Offroad_01_F",12000],
+			["C_SUV_01_F",29000],
+			["C_Van_01_transport_F",40000],
+			["C_Van_01_box_F",50000]
+		};
+		if(__GETC__(life_donator) > 4) then
+		{
+			["B_Quadbike_01_F",1000],
+			["C_Hatchback_01_F",3000],
+			["C_Hatchback_01_sport_F",10000],
+			["C_Offroad_01_F",10000],
+			["C_SUV_01_F",27000],
+			["C_Van_01_transport_F",35000],
+			["C_Van_01_box_F",45000]
+		};
+		if(__GETC__(life_donator) > 5) then
+		{
+			["B_Quadbike_01_F",800],
+			["C_Hatchback_01_F",2500],
+			["C_Hatchback_01_sport_F",10000],
+			["C_Offroad_01_F",9500],
+			["C_SUV_01_F",25000],
+			["C_Van_01_transport_F",32000],
+			["C_Van_01_box_F",40000]
+		};
+	};
+	
 	case "donator_1":
 	{
 		_return =
