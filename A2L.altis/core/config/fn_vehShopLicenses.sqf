@@ -21,6 +21,7 @@ switch (life_veh_shop) do
 	case "civ_car_2": {_ret = license_civ_driver;};
 	case "civ_car_3": {_ret = license_civ_driver;};
 	case "civ_car_4": {_ret = license_civ_driver;};
+	case "civ_car_5": {_ret = license_civ_driver;};
 	case "civ_ship_1": {_ret = license_civ_boat;};
 	case "civ_ship_2": {_ret = license_civ_boat;};
 	case "civ_ship_3": {_ret = license_civ_boat;};
@@ -55,7 +56,6 @@ switch (life_veh_shop) do
 			_ret = true;
 		};
 	};
-};
 case "cop_ship_2": 
 	{
 		hint format["%1", _veh];

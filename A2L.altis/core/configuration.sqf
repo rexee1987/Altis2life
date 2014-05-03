@@ -99,6 +99,7 @@ switch (playerSide) do
 */
 life_inv_items = 
 [
+	"life_inv_bier",
 	"life_inv_oilu",
 	"life_inv_oilp",
 	"life_inv_heroinu",
@@ -144,7 +145,10 @@ life_inv_items =
 	"life_inv_spikeStrip",
 	"life_inv_rock",
 	"life_inv_cement",
-	"life_inv_goldbar"
+	"life_inv_goldbar",
+	"life_inv_hopfen",
+	"life_inv_storage1",
+    "life_inv_storage2"
 ];
 
 //Setup variable inv vars.
@@ -172,7 +176,9 @@ life_licenses =
 	["license_civ_iron","civ"],
 	["license_civ_sand","civ"],
 	["license_civ_salt","civ"],
-	["license_civ_cement","civ"]
+	["license_civ_cement","civ"],
+	["license_civ_brauen","civ"],
+	["license_civ_home","civ"]
 ];
 
 //Setup License Variables
@@ -215,14 +221,17 @@ sell_array =
 	["cocaine",3500], 
 	["cocainep",15000],
 	["diamond",750],
-	["diamondc",15000],
+	["diamondc",9100],
 	["iron_r",2400],
 	["copper_r",2300],
 	["salt_r",2100],
 	["glass",1800],
 	["fuelF",500],
 	["spikeStrip",1200],
-	["cement",1950]
+	["cement",1950],
+	["hopfen",700],
+	["bier",980]
+
 ];
 __CONST__(sell_array,sell_array);
 
@@ -247,7 +256,9 @@ buy_array =
 	["redgull",1500],
 	["fuelF",850],
 	["peach",68],
-	["spikeStrip",2500]
+	["spikeStrip",2500],
+	["storage1",50000],
+    ["storage2",250000]
 ];
 __CONST__(buy_array,buy_array);
 

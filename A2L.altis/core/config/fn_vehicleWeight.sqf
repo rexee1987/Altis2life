@@ -47,6 +47,8 @@ switch ((typeOf _vehicle)) do
 	case "B_MRAP_01_hmg_F": {_weight = 45;};
 	case "B_MRAP_01_gmg_F": {_weight = 45;};
 	case "B_Truck_01_covered_F": {_weight = 550;};
+	case "Land_Box_AmmoOld_F": {_weight = 700;};
+    case "B_supplyCrate_F": {_weight = 1000;};
 };
 
 if(isNil "_used") then {_used = 100};

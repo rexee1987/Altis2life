@@ -31,8 +31,10 @@ if(X_Client) then
 */
 [] execVM "briefing.sqf"; //Load Briefing
 [] execVM "KRON_Strings.sqf";
+[] execVM "antihack\hackerSpanker.sqf";
+[] execVM "antihack\hackerSpanker2.sqf";
 [] execVM "spectre\Activate.sqf";
-_logistic = execVM "addons\=BTC=_Logistic\=BTC=_Logistic_Init.sqf";
+[] execVM "addons\fastrob\zlt_fastrope.sqf";
 
 
 if(!StartProgress) then

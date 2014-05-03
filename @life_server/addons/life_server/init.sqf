@@ -1,6 +1,6 @@
 #define __CONST__(var1,var2) var1 = compileFinal (if(typeName var2 == "STRING") then {var2} else {str(var2)})
 
-__CONST__(LIFE_SCHEMA_NAME,"'arma3life'");//CHANGE THIS IF YOUR DATABASE IS NOT CALLED ARMA3LIFE KEEP THE ' '
+__CONST__(LIFE_SCHEMA_NAME,"'arma3life2'");//CHANGE THIS IF YOUR DATABASE IS NOT CALLED ARMA3LIFE KEEP THE ' '
 
 life_radio_west = radioChannelCreate [[0, 0.95, 1, 0.8], "Side Channel", "%UNIT_NAME", []];
 life_radio_civ = radioChannelCreate [[0, 0.95, 1, 0.8], "Side Channel", "%UNIT_NAME", []];
@@ -9,6 +9,8 @@ life_DB_queue = [];
 serv_sv_use = [];
 fed_bank setVariable["fed_rob_ip",false,true];
 fed_bank setVariable["fed_locked",false,true];
+
+[] execVM "\life_server\initHousing.sqf";
 
 //Run procedures for SQL cleanup on mission start.
 "Arma2Net.Unmanaged" callExtension format ["Arma2NETMySQLCommand ['%2', '%1']", "CALL resetLifeVehicles();",(call LIFE_SCHEMA_NAME)]; //Reset vehicles active state to false.

@@ -13,6 +13,10 @@ waitUntil {!isNull player && player == player}; //Wait till the player is ready
 //Setup initial client core functions
 _handle = [] spawn compile PreprocessFileLineNumbers "core\configuration.sqf";
 diag_log "::Life Client:: Initialization Variables";
+_handle = [] spawn compile PreprocessFileLineNumbers "core\config_housing.sqf";
+diag_log "::Life Client:: Housing Variables";
+waitUntil {scriptDone _handle};
+diag_log "::Life Client:: Housing Variables initialized";
 waitUntil {scriptDone _handle};
 diag_log "::Life Client:: Variables initialized";
 //[player] execVM "core\client\disable_respawn.sqf";
@@ -61,6 +65,10 @@ diag_log "Display 46 Found";
 (findDisplay 46) displayAddEventHandler ["KeyDown", "_this call life_fnc_keyHandler"];
 player addRating 99999999;
 //[] execVM "core\client\init_survival.sqf";
+_handle = [] spawn compile PreprocessFileLineNumbers "core\config_housing.sqf";
+diag_log "::Life Client:: Housing Variables";
+waitUntil {scriptDone _handle};
+diag_log "::Life Client:: Housing Variables initialized";
 diag_log "------------------------------------------------------------------------------------------------------";
 diag_log format["                End of Stratis Life Client Init :: Total Execution Time %1 seconds ",(diag_tickTime) - _timeStamp];
 diag_log "------------------------------------------------------------------------------------------------------";
@@ -77,6 +85,9 @@ life_fnc_moveIn = compileFinal
 ";
 
 [] execVM "core\init_survival.sqf";
+[] execVM "core\fn_welcome.sqf";
+// Init automatically saving gear
+[] spawn life_fnc_autoSave;
 
 // Disable group messages.
 enableRadio false;

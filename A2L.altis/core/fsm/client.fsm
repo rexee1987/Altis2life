@@ -54,7 +54,7 @@ class FSM
     class Split
     {
       name = "Split";
-      init = /*%FSM<STATEINIT""">*/"systemChat format[""Du erhälst dein Nächstes gehalt in %1 minutes"",life_paycheck_period];"/*%FSM</STATEINIT""">*/;
+      init = /*%FSM<STATEINIT""">*/"systemChat format[""Du erhälst dein nächstes Gehalt in %1 minutes"",life_paycheck_period];"/*%FSM</STATEINIT""">*/;
       precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
       class Links
       {
@@ -77,7 +77,7 @@ class FSM
       name = "Pay_me_";
       init = /*%FSM<STATEINIT""">*/"if(!alive player) then" \n
        "{" \n
-       "	systemChat ""Du hast ein Paycheck Verpasst, als du tot warst"";" \n
+       "	systemChat ""Du hast ein Paycheck verpasst, als du tot warst"";" \n
        "}" \n
        "	else" \n
        "{" \n

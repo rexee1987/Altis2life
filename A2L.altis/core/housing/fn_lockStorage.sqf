@@ -23,12 +23,12 @@ if (_house isKindOf "House") then
 	if (_isLocked == 1) then
 	{
 		_isLocked = 0;
-		hint format["Unlocked all storages of %1.", _buildingName];
+		hint format["Alle Lagerflächen von %1 sind offen.", _buildingName];
 	}
 	else
 	{
 		_isLocked = 1;
-		hint format["Locked all storages of %1.", _buildingName];
+		hint format["Alle Lagerflächen von %1 sind offen.", _buildingName];
 	};
 	_house setVariable["storage_locked", _isLocked, true];
 };

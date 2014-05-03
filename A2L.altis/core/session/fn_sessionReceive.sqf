@@ -52,6 +52,7 @@ switch (playerSide) do
 		[] spawn life_fnc_loadGear;
 		//if(life_adminlevel > 0) then {[] execVM "core\client\aconfig.sqf";};
 		__CONST__(life_donator,parseNumber(_session select 9));
+		
 	};
 	
 	case civilian:
@@ -68,9 +69,12 @@ switch (playerSide) do
 		life_is_arrested = call compile format["%1",(_session select 5)];
 		__CONST__(life_adminlevel,parseNumber(_session select 6));
 		__CONST__(life_donator,parseNumber(_session select 7));
+		__CONST__(life_ban,parseNumber(_session select 9));
 		civ_gear = (_session select 8);
 		[] spawn life_fnc_civLoadGear;
 		__CONST__(life_coplevel,0);
+		life_houses = (_session select 10);
+        life_houses_markers = [];
 	};
 };
 
@@ -81,6 +85,11 @@ switch(__GETC__(life_donator)) do
 	case 3: {life_paycheck = life_paycheck + 5000;};
 	case 4: {life_paycheck = life_paycheck + 9000;};
 	case 5: {life_paycheck = life_paycheck + 12000;};
+	case 6: {life_paycheck = life_paycheck + 25000;};
+	case 7: {life_paycheck = life_paycheck + 35000;};
+	case 8: {life_paycheck = life_paycheck + 70000;};
+	case 9: {life_paycheck = life_paycheck + 85000;};
+	case 10: {life_paycheck = life_paycheck + 120000;};
 };
 
 if((getPlayerUID player) != (_session select 0)) exitWith {[] spawn life_fnc_sessionCreate;}; //Since it didn't match create the session again?

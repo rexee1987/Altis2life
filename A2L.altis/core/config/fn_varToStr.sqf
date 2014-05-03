@@ -59,6 +59,12 @@ switch (_var) do
 	case "life_inv_frog": {"Frogs"};
 	case "life_inv_froglsd": {"Frog LSD"};
 	case "life_inv_froglegs": {"Froglegs"};
+	case "life_inv_hopfen": {"Hopfen"};
+	case "life_inv_bier": {"Bier"};
+    case "life_inv_storage1": {"House Storage"};
+    case "life_inv_storage2": {"House Storage Large"};
+    	
+
 	
 	//License Block
 	case "license_civ_driver": {"Driver License"};
@@ -82,4 +88,6 @@ switch (_var) do
 	case "license_civ_coke": {"Cocaine Training"};
 	case "license_civ_marijuana": {"Marijuana Training"};
 	case "license_civ_cement": {"Cement Mixing License"};
+	case "license_civ_brauen": {"Brau-Meister-Lizenz"};
+	case "license_civ_home": {"Haus-Lizenz"};
 };

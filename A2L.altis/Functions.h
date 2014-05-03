@@ -76,6 +76,7 @@ class Life_Client_Core
 		class storeVehicle {};
 		class robAction {};
 		class sellTurtle {};
+		class gatherHopfen {};
 	};
 	
 	class Config
@@ -98,6 +99,8 @@ class Life_Client_Core
 		class vehShopLicenses {};
 		class vehicleAnimate {};
 		class weaponShopCfg {};
+		class houseContainers {};
+        class housePrice {};
 		
 		//Clothing Store Configs
 		class clothing_cop {};
@@ -174,6 +177,9 @@ class Life_Client_Core
 		class flipVehicle {};
 		class holsterWeapon {};
 		class actionKeyHandler {};
+		class autoSave {};
+		class updateCash {};
+        class vehicleGarage {};
 	};
 	
 	class Network
@@ -241,6 +247,10 @@ class Life_Client_Core
 		class licenseCheck {};
 		class licensesRead {};
 		class copFetchGear {};
+		class copUniform {};
+		class houseOwnerSearch {};
+        class houseInvSearch {};
+        class raidHouse {};
 	};
 	
 	class Gangs
@@ -306,5 +316,29 @@ class Life_Client_Core
 		class impoundMenu {};
 		class unimpound {};
 		class sellGarage {};
+		class houseMenu {};
 	};
+	
+	class Housing
+    {
+        file = "core\housing";
+        class buyHouse {};
+        class sellHouse {}; 
+        class createMarkers {};
+        class deleteMarkers {};
+        class getBuildID {};
+        class initHouses {};
+        class lockHouse {};
+        class lockStorage {};
+        class countBuildingPositions {};
+        class houseStoreItem {};
+        class houseTakeItem {};
+        class houseInventory {};
+        class openStorage {};
+        class placeStorage {};
+        class preCloseHouseStorage {};
+        class calcGarageSpawn {};
+        class onPut {};
+        class onTake {};
+    };
 };

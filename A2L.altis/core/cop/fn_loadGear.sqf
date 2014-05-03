@@ -1,4 +1,4 @@
-/*
+﻿/*
 	File: fn_loadGear.sqf
 	Author: Bryan "Tonic" Boardwine
 	
@@ -13,14 +13,21 @@ _allowedItems =
 	"hgun_P07_snds_F",
 	"hgun_p07_F",
 	"arifle_MX_F",
+	"SMG_01_F",
 	"SMG_02_ACO_F",
 	"optic_Holosight",
 	"acc_flashlight",
+	"arifle_MX_F",
 	"arifle_MXC_F",
 	"arifle_MXM_F",
+	"srifle_EBR_F",
+	"arifle_MX_SW_Black_Hamr_pointer_F",
+	"srifle_LRR_f",
+	"srifle_LRR_SOS_f",
 	"optic_Arco",
 	"optic_MRCO",
 	"muzzle_snds_H",
+	"200RND_65x39_Cased_box_Trac",
 	"muzzle_snds_L"
 ];
 if(isNil "_loadout") exitWith {[] call life_fnc_copDefault;}; //Slot data doesn't exist
@@ -82,3 +89,4 @@ if(primaryWeapon player != "") then
 {
 	player selectWeapon (primaryWeapon player);
 };
+[] call life_fnc_copUniform;

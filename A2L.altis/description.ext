@@ -16,8 +16,8 @@ class Header
 };
 
 wreckLimit = 5;
-wreckRemovalMinTime = 60;
-wreckRemovalMaxTime = 320;
+wreckRemovalMinTime = 30;
+wreckRemovalMaxTime = 60;
 corpseLimit = 5;
 corpseRemovalMinTime = 10;
 corpseRemovalMaxTime = 30;
@@ -79,7 +79,7 @@ class CfgDebriefing
 	{
 		title = "Mission Failed";
 		subtitle = "Du bist kein Polizist";
-		description = "Gehe bitte auf den Zivilen Bereich ueber oder bewerbe dich als Polizost.";
+		description = "Gehe bitte auf den Zivilen Bereich ueber oder bewerbe dich als Polizist.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -90,6 +90,15 @@ class CfgDebriefing
 		title = "Mission Failed";
 		subtitle = "You are blacklisted from cops";
 		description = "You are not allowed to be a cop due to previous actions and the admins have removed you from being a cop.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+	class Gebannt
+	{
+		title = "Mission Failed";
+		subtitle = "Du wurdest gebannt";
+		description = "Wende dich an einem Admin im Forum unter Entbannen!";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};

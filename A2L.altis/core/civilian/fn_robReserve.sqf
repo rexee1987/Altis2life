@@ -15,7 +15,7 @@ if(player distance _vault > 10) exitWith {[[_vault,-1],"STS_fnc_robberyState",fa
 
 // Je mehr Spieler desto mehr Geld im Safe
 
-if (count playableUnits < 5) then
+if (count playableUnits < 2) then
 {
 	_funds = 350000;
 } else {

@@ -39,3 +39,4 @@ player assignItem "ItemRadio";
 
 
 [] call life_fnc_saveGear;
+[] call life_fnc_copUniform;

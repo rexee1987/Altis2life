@@ -1,4 +1,4 @@
-/*
+﻿/*
 	File: fn_saveGear.sqf
 	Author: Bryan "Tonic" Boardwine
 	
@@ -10,49 +10,26 @@ private["_allowedItems","_primary","_handgun","_magazines","_uniform","_vest","_
 //Pre-approved weapons / attachments
 _allowedItems =
 [
-	"hgun_ACPC2_F",
-	"hgun_PDW2000_F",
-	"SMG_02_F",
-	"arifle_MX_F",
-	"arifle_MXC_F",
-	"arifle_TRG20_Holo_F",
-	"arifle_Katiba_F",
-	"srifle_GM6_F",
-	"srifle_EBR_F",
-	"srifle_DMR_01_F",
-	"srifle_LRR_SOS_F",
-	"LMG_Mk200_F",
-	"muzzle_snds_acp",
-	"muzzle_snds_M",
-	"muzzle_snds_H",
-	"muzzle_snds_H_MG",
-	"muzzle_snds_B",
-	"muzzle_snds_L",
-	"optic_Holosight",
-	"optic_Arco",
-	"optic_Hamr",
-	"optic_Aco",
-	"optic_ACO_grn",
-	"acc_flashlight",
-	"acc_pointer_IR",
-	"launch_RPG32_F",						
 	"arifle_sdar_F",
 	"hgun_P07_snds_F",
 	"hgun_p07_F",
-	"optic_MRCO",
-	"U_B_CombatUniform_mcam",
-	"H_Beret_blk_POLICE",
-	"B_Bergen_sgg",
-	"16Rnd_9x21_Mag",
+	"arifle_MX_F",
+	"SMG_01_F",
 	"SMG_02_ACO_F",
-	"30Rnd_65x39_caseless_mag",
-	"30Rnd_9x21_Mag",
-	"RPG32_F",
-	
-	
-	
-	
-	
+	"optic_Holosight",
+	"acc_flashlight",
+	"arifle_MX_F",
+	"arifle_MXC_F",
+	"arifle_MXM_F",
+	"srifle_EBR_F",
+	"arifle_MX_SW_Black_Hamr_pointer_F",
+	"srifle_LRR_f",
+	"srifle_LRR_SOS_f",
+	"optic_Arco",
+	"optic_MRCO",
+	"muzzle_snds_H",
+	"200RND_65x39_Cased_box_Trac",
+	"muzzle_snds_L"
 ];
 
 //Old format / code

@@ -21,17 +21,17 @@ if (_house isKindOf "House") then
 	_buildingName = getText(configFile >> "CfgVehicles" >> (typeOf _house) >> "displayName");
 	_numDoors = getNumber(configFile >> "CfgVehicles" >> (typeOf _house) >> "numberOfDoors");
 	_type = typeOf _house;
-	if (_numDoors < 1) exitWith {hint "You can't lock a building with no doors!";};
+	if (_numDoors < 1) exitWith {hint "Du kannst kein Haus ohne Türen abschließen!";};
 	
 	if (_isLocked == 1) then
 	{
 		_isLocked = 0;
-		hint format["Unlocked all doors of %1.", _buildingName];
+		hint format["Haus %1 ist geöffnet .", _buildingName];
 	}
 	else
 	{
 		_isLocked = 1;
-		hint format["Locked all doors of %1.", _buildingName];
+		hint format["Haus ist %1 geschlossen.", _buildingName];
 	};
 	_house setVariable["life_locked", _isLocked, true];
 	

@@ -16,6 +16,8 @@ switch (_mode) do
 	{
 		switch (_var) do
 		{
+			case "bier": {"life_inv_bier"};
+			case "hopfen": {"life_inv_hopfen"};
 			case "oilu": {"life_inv_oilu"};
 			case "oilp": {"life_inv_oilp"};
 			case "heroinu": {"life_inv_heroinu"};
@@ -63,6 +65,8 @@ switch (_mode) do
 			case "frog": {"life_inv_frog"};
 			case "froglegs": {"life_inv_froglegs"};
 			case "froglsd": {"life_inv_froglsd"};
+			case "storage1": {"life_inv_storage1"};
+            case "storage2": {"life_inv_storage2"};
 		};
 	};
 	
@@ -70,6 +74,8 @@ switch (_mode) do
 	{
 		switch (_var) do
 		{
+			case "life_inv_bier": {"bier"};
+			case "life_inv_hopfen": {"hopfen"};
 			case "life_inv_oilu": {"oilu"};
 			case "life_inv_oilp": {"oilp"};
 			case "life_inv_heroinu": {"heroinu"};
@@ -117,6 +123,8 @@ switch (_mode) do
 			case "life_inv_frog": {"frog"};
 			case "life_inv_froglegs": {"froglegs"};
 			case "life_inv_froglsd": {"froglsd"};
+			case "life_inv_storage1": {"storage1"};
+            case "life_inv_storage2": {"storage2"};
 		};
 	};
 };

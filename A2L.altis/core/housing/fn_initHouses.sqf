@@ -75,5 +75,5 @@ if(__GETC__(life_donator) >= __GETC__(HOUSING_DONATOR_LEVEL)) then {
 	};
 };
 
-player addEventHandler ["Take",{_this spawn life_fnc_onTake;}];
-player addEventHandler ["Put",{_this spawn life_fnc_onPut;}];
+player addEventHandler ["nehmen",{_this spawn life_fnc_onTake;}];
+player addEventHandler ["reinpacken",{_this spawn life_fnc_onPut;}];

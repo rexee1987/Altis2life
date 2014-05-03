@@ -89,6 +89,11 @@ switch (true) do
 		[] spawn life_fnc_pickAxeUse;
 	};
 	
+	case (_item in ["storage1","storage2"]):
+    {
+        [_item] call life_fnc_placeStorage;
+    };
+	
 	default
 	{
 		hint "This item isn't usable.";
