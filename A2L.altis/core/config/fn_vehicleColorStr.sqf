@@ -25,6 +25,7 @@ switch (_vehicle) do
 			case 6: {_color = "Black"};
 			case 7: {_color = "Black"};
 			case 8: {_color = "Taxi"};
+			case 9: {_color = "adac"};
 		};
 	};
 	
@@ -66,6 +67,7 @@ switch (_vehicle) do
 			case 2: {_color = "Silver";};
 			case 3: {_color = "Orange";};
 			case 4: {_color = "Cop";};
+			case 5: {_color = "adac"};
 		};
 	};
 	
@@ -141,6 +143,7 @@ switch (_vehicle) do
 			case 1: {_color = "White / Blue"};
 			case 2: {_color = "Digi Green"};
 			case 3: {_color = "Desert Digi"};
+			case 4: {_color = "adac"};
 		};
 	};
 	
@@ -187,11 +190,27 @@ switch (_vehicle) do
 		};
 	};
 	
+	case "I_Heli_light_03_unarmed_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Polizei"};
+		};
+	};
+	
 	case "O_Heli_Attack_02_black_F":
 	{
 		switch (_index) do
 		{
 			case 0: {_color = "Black"};
+		};
+	};
+	
+	case "O_Truck_03_covered_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Rebel"};
 		};
 	};
 	
@@ -211,11 +230,32 @@ switch (_vehicle) do
 			case 0: {_color = "Black"};
 		};
 	};
-		case "B_SDV_01_F":
+	case "B_SDV_01_F":
 	{
 		switch (_index) do
 		{
 			case 0: {_color = "Black"};
+		};
+	};
+	case "I_MRAP_03_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "KSK"};
+		};
+	};
+	case "I_MRAP_03_gmg_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "KSK"};
+		};
+	};
+	case "I_MRAP_03_hmg_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "KSK"};
 		};
 	};
 };

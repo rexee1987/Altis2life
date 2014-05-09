@@ -29,8 +29,8 @@ switch(_shop) do
 			{
 				["Altis Cop Shop",
 					[
-						["arifle_sdar_F","Taser Rifle",7500],
-						["hgun_P07_snds_F","Stun Pistol",2000],
+						["arifle_sdar_F","Taser Rifle",nil,7500],
+						["hgun_P07_snds_F","Stun Pistol",nil,2000],
 						["hgun_P07_F",nil,7500],
 						["Binocular",nil,150],
 						["ItemGPS",nil,100],
@@ -39,9 +39,8 @@ switch(_shop) do
 						["FirstAidKit",nil,150],
 						["Medikit",nil,1000],
 						["NVGoggles",nil,2000],
-						["SmokeShell",nil,500],
 						["16Rnd_9x21_Mag",nil,50],
-						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",125]
+						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",nil,125]
 					]
 				];
 			};
@@ -108,10 +107,7 @@ switch(_shop) do
 						["SmokeShellOrange",nil,500],
 						["SmokeShellPurple",nil,500],
 						["SmokeShellRed",nil,500],
-						["SmokeShellYellow",nil,500],
-						["SmokeShell",nil,500],
 						["Chemlight_red",nil,300],
-						["Chemlight_yellow",nil,300],
 						["Chemlight_green",nil,300],
 						["Chemlight_blue",nil,300],
 						["ItemWatch",nil,450],
@@ -158,13 +154,11 @@ switch(_shop) do
 						["optic_SOS",nil,1800],
 						["acc_flashlight",nil,1000],
 						["acc_pointer_IR",nil,1000],
-						["SmokeShell",nil,500],
 						["SmokeShellBlue",nil,500],
 						["SmokeShellGreen",nil,500],
 						["SmokeShellOrange",nil,500],
 						["SmokeShellPurple",nil,500],
 						["SmokeShellRed",nil,500],
-						["SmokeShellYellow",nil,500],
 						["Chemlight_red",nil,300],
 						["Chemlight_yellow",nil,300],
 						["Chemlight_green",nil,300],
@@ -215,13 +209,11 @@ switch(_shop) do
 						["optic_SOS",nil,1800],
 						["acc_flashlight",nil,1000],
 						["acc_pointer_IR",nil,1000],
-						["SmokeShell",nil,500],
 						["SmokeShellBlue",nil,500],
 						["SmokeShellGreen",nil,500],
 						["SmokeShellOrange",nil,500],
 						["SmokeShellPurple",nil,500],
 						["SmokeShellRed",nil,500],
-						["SmokeShellYellow",nil,500],
 						["Chemlight_red",nil,300],
 						["Chemlight_yellow",nil,300],
 						["Chemlight_green",nil,300],
@@ -234,7 +226,8 @@ switch(_shop) do
 						["Medikit",nil,1000],
 						["Binocular",nil,450],
 						["Rangefinder",nil,450],
-						["NVGoggles",nil,2000]
+						["NVGoggles",nil,2000],
+						["SmokeShellYellow","Traenengas",500]
 					]
 				];
 			};
@@ -284,13 +277,11 @@ switch(_shop) do
 						["optic_SOS",nil,1800],
 						["acc_flashlight",nil,1000],
 						["acc_pointer_IR",nil,1000],
-						["SmokeShell",nil,500],
 						["SmokeShellBlue",nil,500],
 						["SmokeShellGreen",nil,500],
 						["SmokeShellOrange",nil,500],
 						["SmokeShellPurple",nil,500],
 						["SmokeShellRed",nil,500],
-						["SmokeShellYellow",nil,500],
 						["Chemlight_red",nil,300],
 						["Chemlight_yellow",nil,300],
 						["Chemlight_green",nil,300],
@@ -310,7 +301,8 @@ switch(_shop) do
 						["200Rnd_127x99_mag_Tracer_Red",nil,2500],
 						["200Rnd_40mm_G_belt",nil,2900],
 						["optic_tws_mg",nil,3500],
-						["optic_Nightstalker",nil,3900]
+						["optic_Nightstalker",nil,3900],
+						["SmokeShellYellow","Traenengas",500]
 					]
 				];
 			};
@@ -423,18 +415,18 @@ switch(_shop) do
 			{
 				["Rebellenshop",
 					[
-						["hgun_ACPC2_F",nil,10500],
-						["hgun_PDW2000_F",nil,12500],
-						["SMG_02_F",nil,30000],
-						["arifle_TRG20_F",nil,70000],						
-						["arifle_MX_F",nil,70000],
-						["arifle_MXC_F",nil,80000],
-						["arifle_Katiba_F",nil,80000],
-						["srifle_GM6_F",nil,400000],
-						["srifle_DMR_01_F",nil,250000],
-						["srifle_LRR_SOS_F",nil,500000],
-						["srifle_EBR_ARCO_pointer_snds_F",nil,500000],
-						["LMG_Mk200_F",nil,400000],
+						["hgun_ACPC2_F",nil,10000],
+						["hgun_PDW2000_F",nil,12000],
+						["SMG_02_F",nil,25000],
+						["arifle_TRG20_F",nil,68000],						
+						["arifle_MX_F",nil,68000],
+						["arifle_MXC_F",nil,78000],
+						["arifle_Katiba_F",nil,78000],
+						["srifle_GM6_F",nil,390000],
+						["srifle_DMR_01_F",nil,248000],
+						["srifle_LRR_SOS_F",nil,490000],
+						["srifle_EBR_ARCO_pointer_snds_F",nil,480000],
+						["LMG_Mk200_F",nil,380000],
 						["200Rnd_65x39_cased_Box",nil,15000],				
 						["optic_Holosight",nil,15000],
 						["optic_Arco",nil,19000],
@@ -453,7 +445,7 @@ switch(_shop) do
 						["30Rnd_65x39_caseless_green",nil,2500],
 						["30Rnd_556x45_Stanag",nil,2500],
 						["10Rnd_762x51_Mag",nil,2500],
-						["launch_RPG32_F",nil,1000000],
+						["launch_RPG32_F",nil,980000],
 						["RPG32_F",nil,100000],
 						["muzzle_snds_B",nil,25000],
 						["NVGoggles",nil,2000],

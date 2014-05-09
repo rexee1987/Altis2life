@@ -77,6 +77,7 @@ class Life_Client_Core
 		class robAction {};
 		class sellTurtle {};
 		class gatherHopfen {};
+		class gatherBirne {};
 	};
 	
 	class Config
@@ -141,6 +142,8 @@ class Life_Client_Core
 		class updateViewDistance {};
 		class settingsMenu {};
 		class settingsInit {};
+		class wantedadd2 {};
+		class wanted2 {};
 	};
 	
 	class Functions

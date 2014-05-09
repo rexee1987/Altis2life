@@ -61,8 +61,10 @@ switch (_var) do
 	case "life_inv_froglegs": {"Froglegs"};
 	case "life_inv_hopfen": {"Hopfen"};
 	case "life_inv_bier": {"Bier"};
-    case "life_inv_storage1": {"House Storage"};
-    case "life_inv_storage2": {"House Storage Large"};
+	case "life_inv_birne": {"Birnen"};
+	case "life_inv_birneVerarbeitet": {"Birnen Gewaschen"};
+    case "life_inv_storage1": {"Haus Inventar"};
+    case "life_inv_storage2": {"Haus Inventar gross"};
     	
 
 	
@@ -90,4 +92,5 @@ switch (_var) do
 	case "license_civ_cement": {"Cement Mixing License"};
 	case "license_civ_brauen": {"Brau-Meister-Lizenz"};
 	case "license_civ_home": {"Haus-Lizenz"};
+	case "license_civ_adac": {"ADAC Lizenz"};
 };

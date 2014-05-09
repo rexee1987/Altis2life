@@ -49,7 +49,8 @@ switch (_vehicle) do
 			["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa","civ"],
 			["#(ai,64,64,1)Fresnel(0.3,3)","fed"],
 			["texture\offroad_police_g.paa","cop"],
-			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"]
+			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
+			["texture\offroad_adac.paa","adac"]
 		];
 	};
 	
@@ -76,7 +77,8 @@ switch (_vehicle) do
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa","cop"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_03_co.paa","civ"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa","civ"],
-			["texture\suv_cop_g.paa","cop"]
+			["texture\suv_cop_g.paa","cop"],
+			["texture\suv_adac.paa","adac"]
 		];
 	};
 	
@@ -142,7 +144,8 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa","fed"],
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa","civ"],
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_indp_co.paa","donate"],
-			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa","reb"]
+			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa","reb"],
+			["texture\heli_adac.paa","adac"]
 		];
 	};
 	
@@ -151,6 +154,14 @@ switch (_vehicle) do
 		_ret = 
 		[
 			["texture\littlebird_cop.paa","cop"]
+		];
+	};
+	
+	case "I_Heli_light_03_unarmed_F":
+	{
+		_ret = 
+		[
+			["texture\Polizei_hellcat.jpg","cop"]
 		];
 	};
 	
@@ -169,6 +180,30 @@ switch (_vehicle) do
 		[
 			["texture\hunter_cop_a.paa","cop"],
 			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"]
+		];
+	};
+	
+	case "I_MRAP_03_F":
+	{
+		_ret = 
+		[
+			["texture\strider_a_cop.paa","cop"]
+		];
+	};
+	
+	case "I_MRAP_03_hmg_F":
+	{
+		_ret = 
+		[
+			["texture\strider_a_cop.paa","cop", "texture\strider_b_cop.paa"]
+		];
+	};
+	
+	case "I_MRAP_03_gmg_F":
+	{
+		_ret = 
+		[
+			["texture\strider_a_cop.paa","cop", "texture\strider_b_cop.paa"]
 		];
 	};
 	

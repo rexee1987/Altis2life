@@ -1,9 +1,10 @@
-author = "TAW_Tonic /edit: synced Edited by rexee87";
-onLoadName = "Altis Life RPG v3.1.2";
-onLoadMission = "A RPG game mode developed by TAW_Tonic";
+author = "Edited by rexee87 and Banshee";
+onLoadName = "Altis2Life RPG v3.0.1.0";
+onLoadMission = "Modified:rexee87,banshee";
+loadScreen = "loading.jpg";
 joinUnassigned = 1;
 respawn = BASE;
-respawndelay = 10;
+respawndelay = 25;
 disabledAI = true;
 disableChannels[]={0,1,2};
 enableDebugConsole = 1;
@@ -15,7 +16,7 @@ class Header
 	maxPlayers = 75;
 };
 
-wreckLimit = 5;
+wreckLimit = 25;
 wreckRemovalMinTime = 30;
 wreckRemovalMaxTime = 60;
 corpseLimit = 5;
@@ -60,7 +61,7 @@ class CfgSounds
 	class unlock
   {
     name = "unlock";
-    sound[] = {"\sounds\vehicle_lock.ogg", 1.0, 1};
+    sound[] = {"\sounds\vehicle_unlock.ogg", 1.0, 1};
     titles[] = {};
   };
   
@@ -69,6 +70,13 @@ class CfgSounds
     name = "bankalarm";
     sound[] = {"\sounds\bankalarm.ogg", 1, 1};
     titles[] = {};
+  };
+   
+   class alahsnackbar
+  {
+	name     = "alahsnackbar";
+	sound[]  = {"sounds\alahSnackbar.ogg", 1, 1};
+	titles[] = {};
   };
   
 };

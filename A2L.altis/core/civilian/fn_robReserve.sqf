@@ -11,13 +11,13 @@ _funds = [_this,1,-1,[0]] call BIS_fnc_param;
 _toFar = false;
 
 if(isNull _vault OR _funds == -1) exitWith {}; //Bad data
-if(player distance _vault > 10) exitWith {[[_vault,-1],"STS_fnc_robberyState",false,false] spawn life_fnc_MP; hint "You were to stay within 10m of the vault!"};
+if(player distance _vault > 125) exitWith {[[_vault,-1],"STS_fnc_robberyState",false,false] spawn life_fnc_MP; hint "You were to stay within 125m of the vault!"};
 
 // Je mehr Spieler desto mehr Geld im Safe
 
-if (count playableUnits < 2) then
+if (count playableUnits < 10) then
 {
-	_funds = 350000;
+	_funds = 1000000;
 } else {
 		_funds = count playableUnits * 150000;
 	};
@@ -25,7 +25,7 @@ if (count playableUnits < 2) then
 // Code Bankraub
 
 _cops = (west countSide playableUnits);
-if(_cops <= 4) exitWith{[[_vault,-1],"TON_fnc_robberyState",false,false] spawn life_fnc_MP; hint "Es sind nicht genug Polizisten Online!";};
+if(_cops <= 10) exitWith{[[_vault,-1],"TON_fnc_robberyState",false,false] spawn life_fnc_MP; hint "Es sind nicht genug Polizisten Online!";};
 
 _timer = time + (10 * 60); //Default timer is 10 minutes to rob.
 titleText["Cracking the safe...","PLAIN"];

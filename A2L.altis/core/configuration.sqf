@@ -24,6 +24,8 @@ life_bail_paid = false;
 life_impound_inuse = false;
 life_action_inUse = false;
 life_spikestrip = ObjNull;
+life_inv_bier = ObjNull;
+life_inv_hopfen = ObjNull;
 life_respawn_timer = 25;
 life_has_insurance = false;
 life_knockout = false;
@@ -84,12 +86,12 @@ switch (playerSide) do
 {
 	case west: 
 	{
-		life_atmcash = 60000; //Starting Bank Money
+		life_atmcash = 5000; //Starting Bank Money
 		life_paycheck = 2000; //Paycheck Amount
 	};
 	case civilian: 
 	{
-		life_atmcash = 60000; //Starting Bank Money
+		life_atmcash = 500; //Starting Bank Money
 		life_paycheck = 1750; //Paycheck Amount
 	};
 };
@@ -99,6 +101,8 @@ switch (playerSide) do
 */
 life_inv_items = 
 [
+	"life_inv_birneVerarbeitet",
+	"life_inv_birne",
 	"life_inv_bier",
 	"life_inv_oilu",
 	"life_inv_oilp",
@@ -178,7 +182,8 @@ life_licenses =
 	["license_civ_salt","civ"],
 	["license_civ_cement","civ"],
 	["license_civ_brauen","civ"],
-	["license_civ_home","civ"]
+	["license_civ_home","civ"],
+	["license_civ_adac","civ"]
 ];
 
 //Setup License Variables
@@ -194,6 +199,8 @@ life_illegal_items = [["heroinu",4950],["heroinp",12500],["cocaine",2980],["coca
 */
 sell_array = 
 [
+	["birneVerarbeitet",75],
+	["birne",55],
 	["apple",40],
 	["heroinu",3500],
 	["heroinp",17500],

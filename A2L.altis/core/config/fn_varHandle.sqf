@@ -16,6 +16,8 @@ switch (_mode) do
 	{
 		switch (_var) do
 		{
+			case "birneVerarbeitet": {"life_inv_birneVerarbeitet"};
+			case "birne": {"life_inv_birne"};
 			case "bier": {"life_inv_bier"};
 			case "hopfen": {"life_inv_hopfen"};
 			case "oilu": {"life_inv_oilu"};
@@ -74,6 +76,8 @@ switch (_mode) do
 	{
 		switch (_var) do
 		{
+			case "life_inv_birneVerarbeitet": {"birneVerarbeitet"};
+			case "life_inv_birne": {"birne"};
 			case "life_inv_bier": {"bier"};
 			case "life_inv_hopfen": {"hopfen"};
 			case "life_inv_oilu": {"oilu"};

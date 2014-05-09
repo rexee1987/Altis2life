@@ -235,6 +235,11 @@ switch (life_veh_shop) do
 		ctrlSetText[2301,"Bundeswehr Shop"];
 	};
 
+	case "adac_car":	
+	{		
+		if(playerSide == west) exitWith {_kill = "You're not a civilian"};
+		ctrlSetText[2301,"Civilian Car Shop"];	
+	};
 };
 
 if(_kill != "") exitWith {

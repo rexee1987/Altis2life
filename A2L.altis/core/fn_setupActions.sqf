@@ -79,6 +79,21 @@ switch (playerSide) do
         life_actions = life_actions + [player addAction["Fahrzeug in Garage stellen",life_fnc_storeVehicle,"""",0,false,false,"""",
         ' !life_garage_store && !isNull cursorTarget && (player distance cursorTarget) < 20 && license_civ_home && cursorTarget isKindOf "House" && (typeOf cursorTarget == "Land_i_Garage_V1_F" || typeOf cursorTarget == "Land_i_Garage_V2_F" || typeOf cursorTarget == "Land_i_Garage_V1_dam_F") && (((getPlayerUID player) in (cursorTarget getVariable["life_homeOwners", []])) || (cursorTarget getVariable["life_locked", 1]) == 0) ']];
     
+		//SVest.
+        life_actions = life_actions + [player addAction["Activate Suicide Vest",life_fnc_suicideBomb,"",0,false,false,"",'
+        vest player == "V_HarnessOGL_brn" && alive player && playerSide == civilian && !life_istazed && !(player getVariable "restrained") && !(player getVariable "Escorting") && !(player getVariable "transporting")']];
+		
+		//Use Chemlights in hand
+life_actions = life_actions + [player addAction["Chemlight (RED) in Hand",life_fnc_chemlightUse,"red",-1,false,false,"",
+' isNil "life_chemlight" && "Chemlight_red" in (magazines player) && vehicle player == player ']];
+life_actions = life_actions + [player addAction["Chemlight (YELLOW) in Hand",life_fnc_chemlightUse,"yellow",-1,false,false,"",
+' isNil "life_chemlight" && "Chemlight_yellow" in (magazines player) && vehicle player == player ']];
+life_actions = life_actions + [player addAction["Chemlight (GREEN) in Hand",life_fnc_chemlightUse,"green",-1,false,false,"",
+' isNil "life_chemlight" && "Chemlight_green" in (magazines player) && vehicle player == player ']];
+life_actions = life_actions + [player addAction["Chemlight (BLUE) in Hand",life_fnc_chemlightUse,"blue",-1,false,false,"",
+' isNil "life_chemlight" && "Chemlight_blue" in (magazines player) && vehicle player == player ']];
+//Drop Chemlight
+life_actions = life_actions + [player addAction["Drop Chemlight",{if(isNil "life_chemlight") exitWith {};if(isNull life_chemlight) exitWith {};detach life_chemlight; life_chemlight = nil;},"",-1,false,false,"",'!isNil "life_chemlight" && !isNull life_chemlight && vehicle player == player ']];
 	};
 };
 

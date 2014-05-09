@@ -1,33 +1,17 @@
 ﻿waitUntil {!isNull player && player == player};
 if(player diarySubjectExists "rules")exitwith{};
 
-player createDiarySubject ["trenner00","———————"];
 player createDiarySubject ["alh","Altis2life"];
-player createDiarySubject ["trenner0","———————"];
 player createDiarySubject ["whe","WhiteHonorElite"];
-player createDiarySubject ["trenner1","———————"];
 player createDiarySubject ["changelog","Change Log"];
-player createDiarySubject ["trenner2","———————"];
 player createDiarySubject ["rhkatalog","Rohstoffkatalog"];
-player createDiarySubject ["trenner22","———————"];
 player createDiarySubject ["serverrules","Grundregeln"];
-player createDiarySubject ["trenner3","———————"];
 player createDiarySubject ["policerules","Verhaltensregel"];
-player createDiarySubject ["trenner4","———————"];
 player createDiarySubject ["safezones","Safe-Zones"];
-player createDiarySubject ["trenner5","———————"];
 player createDiarySubject ["mil","Militär"];
-player createDiarySubject ["trenner6","———————"];
-//player createDiarySubject ["civrules","Civilian Rules"];
-player createDiarySubject ["trenner7","———————"];
 player createDiarySubject ["illegalitems","Illegale Aktivitäten"];
-player createDiarySubject ["trenner8","———————"];
-//player createDiarySubject ["gangrules","Gang Rules"];
-player createDiarySubject ["trenner9","———————"];
-//player createDiarySubject ["terrorrules","Terrorism Rules"];
-player createDiarySubject ["trenner10","———————"];
 player createDiarySubject ["controls","Controls"];
-player createDiarySubject ["trenner11","———————"];
+
 
 /*  Example
 	player createDiaryRecord ["", //Container

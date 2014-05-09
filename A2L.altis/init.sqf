@@ -35,7 +35,7 @@ if(X_Client) then
 [] execVM "antihack\hackerSpanker2.sqf";
 [] execVM "spectre\Activate.sqf";
 [] execVM "addons\fastrob\zlt_fastrope.sqf";
-
+[] execVM "teargas.sqf";
 
 if(!StartProgress) then
 {

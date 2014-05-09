@@ -52,7 +52,8 @@ switch (_filter) do
 			["H_HelmetCrew_O",nil,8900],
 			["H_HelmetCrew_B",nil,8900],
 			["H_Booniehat_dgtl",nil,5800],
-			["H_Booniehat_mcamo",nil,5800]
+			["H_Booniehat_mcamo",nil,5800],
+			["H_CrewHelmetHeli_B","Gasmaske",44000]
 		];
 	};
 	
@@ -95,7 +96,8 @@ switch (_filter) do
 			["V_TacVest_camo",nil,7500],
 			["V_TacVest_khk",nil,7500],
 			["V_TacVest_oli",nil,7500],
-			["V_TacVestIR_blk",nil,7500]
+			["V_TacVestIR_blk",nil,7500],
+			["V_HarnessOGL_brn","Selbstmordweste",1000000] 
 		];
 	};
 	

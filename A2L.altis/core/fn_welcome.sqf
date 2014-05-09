@@ -23,11 +23,13 @@ _role5names = ["Miete dir ein Haus mit einer 'Homeowner Licence'. Features: Tür
 _role6 = "Changelog";
 _role6names = ["Der Changelog ist hier zu finden: http://forum.altis2life.de"];
 _role7 = "Donator Info";
-_role7names = ["Donator/Ehrenbürger haben neben dem Donatorshop ein erhötes Einkommen."];
+_role7names = ["Donator/Ehrenbürger haben neben dem Donatorshop ein erhöhtes Einkommen."];
 _role8 = "Roleplay";
 _role8names = ["Dies ist ein RPG-Server. Willkürlich auf Spieler zu schiessen, RANDOM-DEATHMATCHING, ist nicht erwünscht."];
-_role9 = "Viel Spaß";
-_role9names = ["wünscht dir das Admin Team: Rexee, Banshee, Heisenberg, Pablo Escobar und Bienelvlaya"];
+_role9 = "Support und Bewerbungen";
+_role9names = ["Bewerbungen und Support findet im Forum unter http://forum.altis2life.de."];
+_role10 = "Viel Spaß";
+_role10names = ["wünscht dir das Admin Team: Rexee87, Banshee, pro.aggro, Sven, Pablo Escobar und Bienelvlaya"];
  
 {
 sleep 2;
@@ -56,7 +58,8 @@ sleep (_onScreenTime);
 [_role6, _role6names],
 [_role7, _role7names],
 [_role8, _role8names],
-[_role9, _role9names]
+[_role9, _role9names],
+[_role10, _role10names]
 
 
 ];

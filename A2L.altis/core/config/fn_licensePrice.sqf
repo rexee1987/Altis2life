@@ -35,4 +35,5 @@ switch (_type) do
 	case "cement": {9000};
 	case "brauen": {5000};
 	case "home": {200000};
+	case "adac": {200000};
 };

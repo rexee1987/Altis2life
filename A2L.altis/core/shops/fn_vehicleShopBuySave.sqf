@@ -232,6 +232,17 @@ switch(life_veh_shop) do
 		_sp = getMarkerPos "donator_car";
 		_dir = markerDir "donator_car";
 	};
+	
+	case "adac_car":	
+	{		
+		_sp = getMarkerPos "adac_car";		
+		_dir = markerDir "adac_car";		
+		if(count(nearestObjects[_sp,["Car","Ship","Air"],2]) > 0) then 		
+		{			
+			_sp = getMarkerPos "adac_car";			
+			_dir = markerDir "adac_car";		
+		};	
+	};
 };
 _index = lbCurSel 2302;
 _veh = lbData[2302,_index];
