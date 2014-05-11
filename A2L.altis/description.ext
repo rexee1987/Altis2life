@@ -1,5 +1,5 @@
 author = "Edited by rexee87 and Banshee";
-onLoadName = "Altis2Life RPG v3.0.1.0";
+onLoadName = "Altis2Life RPG v3.0.1.1";
 onLoadMission = "Modified:rexee87,banshee";
 loadScreen = "loading.jpg";
 joinUnassigned = 1;
