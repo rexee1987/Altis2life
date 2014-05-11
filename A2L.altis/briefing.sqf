@@ -37,7 +37,7 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Aktuelle Version",
 				"
-					Altis2life v3.0.0.7 (28.04.2014)
+					Altis2life v3.0.1.1 (11.05.2014)
 				"
 		]
 	];
@@ -68,10 +68,9 @@ player createDiarySubject ["controls","Controls"];
 			"Ansprechpartner", 
 				"
 				1.) General: rexee87 ( A2L ) <br/>
-				2.) Generalmajor: Heisenberg ( A2L )<br/>
+				2.) Generalmajor: Banshee ( A2L )<br/>
 				3.) 1ndGeneralleutnant: Pabelo_Escobar ( A2L ) <br/>
-				4.) 2ndGeneralleutnant: Banshee ( A2L ) <br/>
-				5.) Brigadegeneral: Bienelvlaya ( A2L )<br/><br/>
+				4.) Brigadegeneral: Bienelvlaya ( A2L )<br/><br/>
 				"
 		]
 	];
@@ -97,11 +96,9 @@ player createDiarySubject ["controls","Controls"];
 				"
 					In diesen Gebieten ist es nicht erlaubt jemanden zu töten oder zu überfallen.<br/><br/>
 					
-					Händler und Garagen <br/>
 					Alle Bankautomaten <br/>
-					Polizei HQ<br/>
-					Kavalar Marktplatz <br/>
-					Alle Spawnbereiche <br />
+					Polizei HQ´s<br/>
+					Kavala<br/>
 					Spender Shop <br/><br/>
 				"
 		]
@@ -262,7 +259,8 @@ player createDiarySubject ["controls","Controls"];
 			"Website/Forum",
 				"
 				http://www.altis2life.de ( in Arbeit )<br/>
-				http://forum.altis2life.de ( aktiv ) <br />
+				http://forum.altis2life.de ( aktiv ) <br/>
+				http://wiki.altis2life.de ( aktiv ) <br/><br/>
 				"
 		]
 	];

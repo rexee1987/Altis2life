@@ -78,6 +78,12 @@ class Life_Client_Core
 		class sellTurtle {};
 		class gatherHopfen {};
 		class gatherBirne {};
+		class gatherBanane {};
+		class gatherWolle {};
+		class gatherMais {};
+		class gatherKiwi {};
+		class gatherAtomreste {};
+		class gatherOrgane {};
 	};
 	
 	class Config

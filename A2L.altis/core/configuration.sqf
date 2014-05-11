@@ -24,8 +24,6 @@ life_bail_paid = false;
 life_impound_inuse = false;
 life_action_inUse = false;
 life_spikestrip = ObjNull;
-life_inv_bier = ObjNull;
-life_inv_hopfen = ObjNull;
 life_respawn_timer = 25;
 life_has_insurance = false;
 life_knockout = false;
@@ -101,6 +99,12 @@ switch (playerSide) do
 */
 life_inv_items = 
 [
+	"life_inv_organe",
+	"life_inv_atomre",
+	"life_inv_kiwi",
+	"life_inv_mais",
+	"life_inv_wolle",
+	"life_inv_banane",
 	"life_inv_birneVerarbeitet",
 	"life_inv_birne",
 	"life_inv_bier",
@@ -191,7 +195,7 @@ life_licenses =
 
 life_dp_points = ["dp_1","dp_2","dp_3","dp_4","dp_5","dp_6","dp_7","dp_8","dp_9","dp_10","dp_11","dp_12","dp_13","dp_14","dp_15","dp_15","dp_16","dp_17","dp_18","dp_19","dp_20","dp_21","dp_22","dp_23","dp_24","dp_25"];
 //[shortVar,reward]
-life_illegal_items = [["heroinu",4950],["heroinp",12500],["cocaine",2980],["cocainep",15985],["marijuana",20000],["turtle",30000],["froglsd",18000]];
+life_illegal_items = [["heroinu",4950],["heroinp",12500],["cocaine",2980],["cocainep",15985],["marijuana",20000],["turtle",30000],["froglsd",18000],["organe",22000],["atomre",50000]];
 
 
 /*
@@ -199,6 +203,12 @@ life_illegal_items = [["heroinu",4950],["heroinp",12500],["cocaine",2980],["coca
 */
 sell_array = 
 [
+	["organe",2500],
+	["atomre",6700],
+	["kiwi",150],
+	["mais",180],
+	["wolle",2100],
+	["banane",220],
 	["birneVerarbeitet",75],
 	["birne",55],
 	["apple",40],

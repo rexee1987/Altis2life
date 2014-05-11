@@ -16,6 +16,12 @@ switch (_mode) do
 	{
 		switch (_var) do
 		{
+			case "banane": {"life_inv_banane"};
+			case "wolle": {"life_inv_wolle"};
+			case "mais": {"life_inv_mais"};
+			case "kiwi": {"life_inv_kiwi"};
+			case "atomre": {"life_inv_atomre"};
+			case "organe": {"life_inv_organe"};
 			case "birneVerarbeitet": {"life_inv_birneVerarbeitet"};
 			case "birne": {"life_inv_birne"};
 			case "bier": {"life_inv_bier"};
@@ -76,6 +82,12 @@ switch (_mode) do
 	{
 		switch (_var) do
 		{
+			case "life_inv_banane": {"banane"};
+			case "life_inv_wolle": {"wolle"};
+			case "life_inv_mais": {"mais"};
+			case "life_inv_kiwi": {"kiwi"};
+			case "life_inv_atomre": {"atomre"};
+			case "life_inv_organe": {"organe"};
 			case "life_inv_birneVerarbeitet": {"birneVerarbeitet"};
 			case "life_inv_birne": {"birne"};
 			case "life_inv_bier": {"bier"};

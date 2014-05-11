@@ -29,7 +29,7 @@ _role8names = ["Dies ist ein RPG-Server. Willkürlich auf Spieler zu schiessen, 
 _role9 = "Support und Bewerbungen";
 _role9names = ["Bewerbungen und Support findet im Forum unter http://forum.altis2life.de."];
 _role10 = "Viel Spaß";
-_role10names = ["wünscht dir das Admin Team: Rexee87, Banshee, pro.aggro, Sven, Pablo Escobar und Bienelvlaya"];
+_role10names = ["wünscht dir das Admin Team: Rexee87, Banshee, pro.aggro, Sven, Pablo Escobar, Gen.Kev O´Neill und Bienelvlaya"];
  
 {
 sleep 2;

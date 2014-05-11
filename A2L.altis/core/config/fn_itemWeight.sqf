@@ -11,6 +11,12 @@ if(_item == "") exitWith {};
 
 switch (_item) do
 {
+	case "organe": {4};
+	case "atomre": {5};
+	case "kiwi": {1};
+	case "mais": {2};
+	case "wolle": {3};
+	case "banane": {2};
 	case "birne": {2};
 	case "hopfen": {3};
 	case "oilu": {8};

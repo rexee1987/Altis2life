@@ -135,7 +135,7 @@ class Mission
 	class Intel
 	{
 		briefingName="Altis2Life";
-		overviewText="v 3.0.1.0";
+		overviewText="v 3.0.1.1";
 		startWeather=0;
 		startWind=0;
 		forecastWeather=0;
@@ -3118,8 +3118,8 @@ class Mission
 				};
 				class Item82
 				{
-					position[]={22288.383,3.1936755,5090.5981};
-					azimut=315.01199;
+					position[]={11936.803,33.312897,16868.234};
+					azimut=195.53593;
 					special="NONE";
 					id=180;
 					side="CIV";
@@ -3173,8 +3173,8 @@ class Mission
 				};
 				class Item87
 				{
-					position[]={18531.201,6.237854,6312.8687};
-					azimut=134.42065;
+					position[]={22577.33,12.854414,17008.385};
+					azimut=225.929;
 					special="NONE";
 					id=185;
 					side="CIV";
@@ -26759,7 +26759,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=272;
+		items=255;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -26949,12 +26949,12 @@ class Mission
 		};
 		class Item25
 		{
-			position[]={18531.414,6.2548609,6312.6592};
+			position[]={22577.115,12.840526,17008.178};
 			name="cocaine processing";
 			text="Kokain Verarbeitung";
 			type="mil_dot";
 			colorName="Color1_FD_F";
-			angle=14.409424;
+			angle=105.9175;
 		};
 		class Item26
 		{
@@ -27970,7 +27970,7 @@ class Mission
 		};
 		class Item151
 		{
-			position[]={19181,147.9971,10208.5};
+			position[]={21287.768,8.0258541,12000.716};
 			name="heroin_1";
 			text="Heroin Feld";
 			type="hd_dot";
@@ -27978,7 +27978,7 @@ class Mission
 		};
 		class Item152
 		{
-			position[]={19181.064,147.24086,10203.114};
+			position[]={21287.832,8.2430906,11995.33};
 			name="heroin_area";
 			markerType="ELLIPSE";
 			type="Empty";
@@ -27988,11 +27988,12 @@ class Mission
 		};
 		class Item153
 		{
-			position[]={22288.229,3.1993651,5092.6821};
+			position[]={11937.203,33.360016,16869.684};
 			name="heroin_p";
 			text="Heroin verarbeitung";
 			type="mil_dot";
 			colorName="ColorRed";
+			angle=-85.576653;
 		};
 		class Item154
 		{
@@ -28547,65 +28548,17 @@ class Mission
 		};
 		class Item222
 		{
-			position[]={16819.842,24,12679.313};
-			name="SaveZone!";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=280;
-			b=250;
-			angle=-81.733482;
-		};
-		class Item223
-		{
 			position[]={3560.561,8.0056829,13055.648};
 			name="SaveZone!_1";
 			markerType="ELLIPSE";
 			type="Empty";
 			colorName="ColorGreen";
 			fillName="DiagGrid";
-			a=380;
-			b=250;
-			angle=-65.947563;
+			a=950;
+			b=450;
+			angle=-65.947601;
 		};
-		class Item224
-		{
-			position[]={9313.4268,119.11678,15891.939};
-			name="SaveZone!_2";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=280;
-			b=250;
-			angle=156.29222;
-		};
-		class Item225
-		{
-			position[]={14030.382,27.377527,18693.176};
-			name="SaveZone!_3";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=280;
-			b=250;
-			angle=-81.733482;
-		};
-		class Item226
-		{
-			position[]={25662.355,20.592003,21350.912};
-			name="SaveZone!_4";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=280;
-			b=250;
-			angle=-52.834106;
-		};
-		class Item227
+		class Item223
 		{
 			position[]={23548.102,13.346661,19927.326};
 			name="SaveZone!_5";
@@ -28617,7 +28570,7 @@ class Mission
 			b=50;
 			angle=-81.733498;
 		};
-		class Item228
+		class Item224
 		{
 			position[]={17506.449,6.1029944,14159.949};
 			name="SaveZone!_5_1";
@@ -28629,7 +28582,7 @@ class Mission
 			b=50;
 			angle=-81.733498;
 		};
-		class Item229
+		class Item225
 		{
 			position[]={15188.488,17.892635,17330.24};
 			name="SaveZone!_5_2";
@@ -28641,67 +28594,7 @@ class Mission
 			b=50;
 			angle=-81.733498;
 		};
-		class Item230
-		{
-			position[]={4928.812,16.334639,14579.312};
-			name="SaveZone!_5_3";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=50;
-			b=50;
-			angle=-81.733498;
-		};
-		class Item231
-		{
-			position[]={17859.604,2.0095556,18161.768};
-			name="SaveZone!_5_4";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=50;
-			b=50;
-			angle=-81.733498;
-		};
-		class Item232
-		{
-			position[]={18741.061,31.384516,16568.605};
-			name="SaveZone!_5_5";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=50;
-			b=50;
-			angle=-81.733498;
-		};
-		class Item233
-		{
-			position[]={18149.375,46.971729,15512.167};
-			name="SaveZone!_5_6";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=50;
-			b=50;
-			angle=-81.733498;
-		};
-		class Item234
-		{
-			position[]={21583.783,17.419348,16365.643};
-			name="SaveZone!_5_7";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=50;
-			b=50;
-			angle=-81.733498;
-		};
-		class Item235
+		class Item226
 		{
 			position[]={26899.703,14.978261,23508.332};
 			name="SaveZone!_5_8";
@@ -28713,7 +28606,7 @@ class Mission
 			b=50;
 			angle=-81.733498;
 		};
-		class Item236
+		class Item227
 		{
 			position[]={27047.396,22.10165,23270.07};
 			name="SaveZone!_5_9";
@@ -28725,7 +28618,7 @@ class Mission
 			b=50;
 			angle=-81.733498;
 		};
-		class Item237
+		class Item228
 		{
 			position[]={18104.758,24.421911,15235.316};
 			name="SaveZone!_5_10";
@@ -28737,7 +28630,7 @@ class Mission
 			b=50;
 			angle=-81.733498;
 		};
-		class Item238
+		class Item229
 		{
 			position[]={21721.059,15.139207,7553.4048};
 			name="SaveZone!_5_11";
@@ -28749,7 +28642,7 @@ class Mission
 			b=50;
 			angle=-81.733498;
 		};
-		class Item239
+		class Item230
 		{
 			position[]={20544.016,35.923443,8907.5098};
 			name="SaveZone!_5_12";
@@ -28761,43 +28654,7 @@ class Mission
 			b=50;
 			angle=-81.733498;
 		};
-		class Item240
-		{
-			position[]={9088.7041,80.280518,15535.527};
-			name="SaveZone!_5_13";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=50;
-			b=50;
-			angle=-81.733498;
-		};
-		class Item241
-		{
-			position[]={8753.2715,96.907501,15842.468};
-			name="SaveZone!_5_14";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=50;
-			b=50;
-			angle=-81.733498;
-		};
-		class Item242
-		{
-			position[]={4326.6226,32.3899,13982.305};
-			name="SaveZone!_5_15";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=50;
-			b=50;
-			angle=-81.733498;
-		};
-		class Item243
+		class Item231
 		{
 			position[]={4187.4995,36.552921,13107.409};
 			name="SaveZone!_5_16";
@@ -28809,31 +28666,7 @@ class Mission
 			b=50;
 			angle=-81.733498;
 		};
-		class Item244
-		{
-			position[]={3763.0837,34.408012,12378.246};
-			name="SaveZone!_5_17";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=50;
-			b=50;
-			angle=-81.733498;
-		};
-		class Item245
-		{
-			position[]={9036.3311,24.54565,12029.485};
-			name="SaveZone!_5_18";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=100;
-			b=100;
-			angle=-81.733498;
-		};
-		class Item246
+		class Item232
 		{
 			position[]={13329.004,2.2945812,14547.215};
 			name="Gelände der Altis Bank ";
@@ -28844,7 +28677,7 @@ class Mission
 			a=300;
 			b=300;
 		};
-		class Item247
+		class Item233
 		{
 			position[]={13618.479,16.425779,18114.16};
 			name="SaveZone!_5_16_1";
@@ -28856,31 +28689,7 @@ class Mission
 			b=50;
 			angle=-81.733498;
 		};
-		class Item248
-		{
-			position[]={14463.954,21.682297,18398.131};
-			name="SaveZone!_5_16_2";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=50;
-			b=50;
-			angle=-81.733498;
-		};
-		class Item249
-		{
-			position[]={17107.535,12.919441,12498.623};
-			name="SaveZone!_5_16_3";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=50;
-			b=50;
-			angle=-81.733498;
-		};
-		class Item250
+		class Item234
 		{
 			position[]={11593.089,23.604191,11983.768};
 			name="SaveZone!_5_16_4";
@@ -28892,7 +28701,7 @@ class Mission
 			b=50;
 			angle=-81.733498;
 		};
-		class Item251
+		class Item235
 		{
 			position[]={14161.614,77.350288,21265.625};
 			name="SaveZone!_5_16_5";
@@ -28904,7 +28713,7 @@ class Mission
 			b=50;
 			angle=-81.733498;
 		};
-		class Item252
+		class Item236
 		{
 			position[]={17551.09,2.1315236,18944.504};
 			name="SaveZone!_5_16_6";
@@ -28916,19 +28725,7 @@ class Mission
 			b=50;
 			angle=-81.733498;
 		};
-		class Item253
-		{
-			position[]={3031.7954,1.9299999,12634.086};
-			name="SaveZone!_5_16_7";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=50;
-			b=50;
-			angle=-81.733498;
-		};
-		class Item254
+		class Item237
 		{
 			position[]={3257.4697,-0.0032968638,12923.017};
 			name="Sperrgebiet";
@@ -28940,7 +28737,7 @@ class Mission
 			b=60;
 			angle=-9.8186007;
 		};
-		class Item255
+		class Item238
 		{
 			position[]={3106.4233,14.441064,12382.623};
 			name="birne_1";
@@ -28950,7 +28747,7 @@ class Mission
 			a=2;
 			b=2;
 		};
-		class Item256
+		class Item239
 		{
 			position[]={9326.1338,93.464172,16419.682};
 			name="birne_2";
@@ -28961,7 +28758,7 @@ class Mission
 			b=2;
 			angle=106.37451;
 		};
-		class Item257
+		class Item240
 		{
 			position[]={13790.136,21.767359,19175.756};
 			name="birne_3";
@@ -28971,7 +28768,7 @@ class Mission
 			a=2;
 			b=2;
 		};
-		class Item258
+		class Item241
 		{
 			position[]={25343.738,17.82625,21113.42};
 			name="birne_4";
@@ -28981,7 +28778,7 @@ class Mission
 			a=2;
 			b=2;
 		};
-		class Item259
+		class Item242
 		{
 			position[]={16801.357,10.851104,12311.258};
 			name="birne_5";
@@ -28991,67 +28788,7 @@ class Mission
 			a=2;
 			b=2;
 		};
-		class Item260
-		{
-			position[]={3116.0085,17.016502,12381.749};
-			name="SaveZone!_5_17_1";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=40;
-			b=20;
-			angle=-73.175476;
-		};
-		class Item261
-		{
-			position[]={9325.0654,93.600159,16423.408};
-			name="SaveZone!_5_17_1_1";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=40;
-			b=20;
-			angle=4.7175426;
-		};
-		class Item262
-		{
-			position[]={13803.227,22.490892,19177.994};
-			name="SaveZone!_5_17_1_2";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=40;
-			b=20;
-			angle=-93.951126;
-		};
-		class Item263
-		{
-			position[]={25345.713,17.8458,21114.689};
-			name="SaveZone!_5_17_1_3";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=40;
-			b=20;
-			angle=-384.93405;
-		};
-		class Item264
-		{
-			position[]={16802.949,10.699946,12305.893};
-			name="SaveZone!_5_17_1_4";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=40;
-			b=20;
-			angle=-108.00521;
-		};
-		class Item265
+		class Item243
 		{
 			position[]={5367.8022,22.861858,14497.084};
 			name="brauerei";
@@ -29059,21 +28796,21 @@ class Mission
 			type="mil_dot";
 			colorName="ColorGreen";
 		};
-		class Item266
+		class Item244
 		{
 			position[]={15312.987,16.334383,17562.943};
 			name="adac_car";
 			type="Empty";
 			angle=90.895203;
 		};
-		class Item267
+		class Item245
 		{
 			position[]={15328.213,16.314159,17568.502};
 			name="adac_gar";
 			type="Empty";
 			angle=177.49399;
 		};
-		class Item268
+		class Item246
 		{
 			position[]={15315.676,16.614609,17586.996};
 			name="ADAC HQ";
@@ -29081,19 +28818,7 @@ class Mission
 			type="loc_Fuelstation";
 			colorName="ColorYellow";
 		};
-		class Item269
-		{
-			position[]={15316.593,16.593353,17584.434};
-			name="SaveZone!_5_2_1";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorGreen";
-			fillName="DiagGrid";
-			a=50;
-			b=50;
-			angle=-81.733498;
-		};
-		class Item270
+		class Item247
 		{
 			position[]={17430.156,14.44042,13160.456};
 			name="SaveZone!_5_2_1_1";
@@ -29105,22 +28830,70 @@ class Mission
 			b=110;
 			angle=-44.77129;
 		};
-		class Item271
+		class Item248
 		{
-			position[]={3679.3689,22.012756,10455.018};
-			name="SaveZone!_5_2_1_2";
+			position[]={18456.305,23.778633,14285.192};
+			name="ba_1";
+			text="Bananenwald";
+			type="mil_dot";
+			colorName="ColorYellow";
+		};
+		class Item249
+		{
+			position[]={17328.387,72.203476,17434.34};
+			name="wo_1";
+			text="Baumwollenfeld";
+			type="mil_dot";
+			colorName="ColorBrown";
+		};
+		class Item250
+		{
+			position[]={4752.4956,40.543453,13522.714};
+			name="ma_1";
+			text="Mais Feld";
+			type="mil_dot";
+			colorName="ColorYellow";
+		};
+		class Item251
+		{
+			position[]={13017.21,14.550383,13401.449};
+			name="ki_1";
+			text="Kiwi Plantage";
+			type="mil_dot";
+			colorName="ColorGreen";
+		};
+		class Item252
+		{
+			position[]={23495.109,8.7153215,16262.113};
+			name="ato_1";
+			text="Atomverseuchtes Gebiet";
+			type="mil_dot";
+			colorName="ColorBlack";
+		};
+		class Item253
+		{
+			position[]={20756.408,2.2095656,20392.75};
+			name="org_1";
+			text="Organ Beschaffer";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item254
+		{
+			position[]={23502.117,8.0900211,16261.082};
+			name="versuecht";
+			text="001";
 			markerType="ELLIPSE";
 			type="Empty";
-			colorName="ColorGreen";
+			colorName="Color1_FD_F";
 			fillName="DiagGrid";
 			a=50;
 			b=50;
-			angle=-81.733498;
 		};
 	};
 	class Sensors
 	{
-		items=61;
+		items=51;
 		class Item0
 		{
 			position[]={23535.512,13.122097,19927.289};
@@ -29894,8 +29667,8 @@ class Mission
 		class Item46
 		{
 			position[]={3562.501,8.2652779,13057.845};
-			a=380;
-			b=250;
+			a=950;
+			b=450;
 			angle=113.821;
 			activationBy="CIV";
 			repeating=1;
@@ -29909,74 +29682,6 @@ class Mission
 			};
 		};
 		class Item47
-		{
-			position[]={14025.693,27.274282,18684.293};
-			a=350;
-			b=250;
-			angle=91.432701;
-			activationBy="CIV";
-			repeating=1;
-			interruptable=1;
-			type="SWITCH";
-			age="UNKNOWN";
-			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hint ""Sie befinden sich in einer SaveZone! """;
-			class Effects
-			{
-			};
-		};
-		class Item48
-		{
-			position[]={25657,20.577446,21344.752};
-			a=350;
-			b=250;
-			angle=135.31046;
-			activationBy="CIV";
-			repeating=1;
-			interruptable=1;
-			type="SWITCH";
-			age="UNKNOWN";
-			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hint ""Sie befinden sich in einer SaveZone! """;
-			class Effects
-			{
-			};
-		};
-		class Item49
-		{
-			position[]={16820.162,24,12678.736};
-			a=280;
-			b=250;
-			angle=91.432701;
-			activationBy="CIV";
-			repeating=1;
-			interruptable=1;
-			type="SWITCH";
-			age="UNKNOWN";
-			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hint ""Sie befinden sich in einer SaveZone! """;
-			class Effects
-			{
-			};
-		};
-		class Item50
-		{
-			position[]={9316.8916,119.12139,15892.848};
-			a=350;
-			b=250;
-			angle=160.84406;
-			activationBy="CIV";
-			repeating=1;
-			interruptable=1;
-			type="SWITCH";
-			age="UNKNOWN";
-			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hint ""Sie befinden sich in einer SaveZone! """;
-			class Effects
-			{
-			};
-		};
-		class Item51
 		{
 			position[]={15269.391,17.911623,17284.244};
 			a=230;
@@ -29994,7 +29699,7 @@ class Mission
 			{
 			};
 		};
-		class Item52
+		class Item48
 		{
 			position[]={13328.68,2.2947938,14547.457};
 			a=300;
@@ -30011,7 +29716,7 @@ class Mission
 			{
 			};
 		};
-		class Item53
+		class Item49
 		{
 			position[]={3256.8765,-0.0050854967,12922.649};
 			a=120;
@@ -30028,107 +29733,7 @@ class Mission
 			{
 			};
 		};
-		class Item54
-		{
-			position[]={3115.3333,16.792263,12381.442};
-			a=40;
-			b=20;
-			angle=285.94659;
-			activationBy="CIV";
-			repeating=1;
-			interruptable=1;
-			type="SWITCH";
-			age="UNKNOWN";
-			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hint ""Sie befinden sich in einer SaveZone! """;
-			class Effects
-			{
-			};
-		};
-		class Item55
-		{
-			position[]={9324.6221,93.657715,16424.006};
-			a=40;
-			b=20;
-			angle=363.8396;
-			activationBy="CIV";
-			repeating=1;
-			interruptable=1;
-			type="SWITCH";
-			age="UNKNOWN";
-			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hint ""Sie befinden sich in einer SaveZone! """;
-			class Effects
-			{
-			};
-		};
-		class Item56
-		{
-			position[]={13802.704,22.495365,19177.469};
-			a=40;
-			b=20;
-			angle=265.17096;
-			activationBy="CIV";
-			repeating=1;
-			interruptable=1;
-			type="SWITCH";
-			age="UNKNOWN";
-			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hint ""Sie befinden sich in einer SaveZone! """;
-			class Effects
-			{
-			};
-		};
-		class Item57
-		{
-			position[]={25345.033,17.862831,21114.994};
-			a=40;
-			b=20;
-			angle=-25.811983;
-			activationBy="CIV";
-			repeating=1;
-			interruptable=1;
-			type="SWITCH";
-			age="UNKNOWN";
-			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hint ""Sie befinden sich in einer SaveZone! """;
-			class Effects
-			{
-			};
-		};
-		class Item58
-		{
-			position[]={16802.57,10.677359,12305.254};
-			a=40;
-			b=20;
-			angle=251.11688;
-			activationBy="CIV";
-			repeating=1;
-			interruptable=1;
-			type="SWITCH";
-			age="UNKNOWN";
-			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hint ""Sie befinden sich in einer SaveZone! """;
-			class Effects
-			{
-			};
-		};
-		class Item59
-		{
-			position[]={3678.9609,21.979824,10454.286};
-			angle=363.84;
-			activationBy="CIV";
-			repeating=1;
-			interruptable=1;
-			type="SWITCH";
-			age="UNKNOWN";
-			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hint ""Sie befinden sich in einer SaveZone! """;
-			class Effects
-			{
-			};
-		};
-		class Item60
+		class Item50
 		{
 			position[]={17430.039,14.485166,13159.174};
 			a=80;

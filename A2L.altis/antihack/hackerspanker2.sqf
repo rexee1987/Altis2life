@@ -3,7 +3,7 @@ waitUntil {!isnull player && player == player};
 waitUntil {!isNil {life_fnc_broadcast}};
 systemChat "TAWACS :: INITIATING ANTI-CHEAT";
 
-if((getPlayerUID player) in ["76561198033778245","76561198135217221","76561198024929748","76561198129286538","76561197960814410","76561198102117928"]) exitWith {systemChat "TAWACS :: INITIALIZATION CLOSED DUE TO BEING IN WHITELIST";};
+if((getPlayerUID player) in ["76561198033778245","76561198135217221","76561198024929748","76561198129286538","76561197960814410","76561198102117928","76561198000601351"]) exitWith {systemChat "TAWACS :: INITIALIZATION CLOSED DUE TO BEING IN WHITELIST";};
 
 private["_cfg","_patches","_sel","_name","_patches"];
 _cfg = configFile >> "CfgPatches";
