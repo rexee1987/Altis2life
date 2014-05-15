@@ -1,5 +1,5 @@
 author = "Edited by rexee87 and Banshee";
-onLoadName = "Altis2Life RPG v3.0.1.1";
+onLoadName = "Altis2Life RPG v3.0.1.3";
 onLoadMission = "Modified:rexee87,banshee";
 loadScreen = "loading.jpg";
 joinUnassigned = 1;
@@ -75,7 +75,7 @@ class CfgSounds
    class alahsnackbar
   {
 	name     = "alahsnackbar";
-	sound[]  = {"sounds\alahSnackbar.ogg", 1, 1};
+	sound[]  = {"\sounds\alahSnackbar.ogg", 1, 1};
 	titles[] = {};
   };
   

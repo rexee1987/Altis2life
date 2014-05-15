@@ -86,8 +86,6 @@ switch (_filter) do
 			["V_Chestrig_rgr",nil,7500],
 			["V_HarnessO_brn",nil,7500],
 			["V_HarnessO_gry",nil,7500],
-			["V_HarnessOGL_brn",nil,7500],
-			["V_HarnessOGL_gry",nil,7500],
 			["V_HarnessOSpec_brn",nil,7500],
 			["V_HarnessOSpec_gry",nil,7500],
 			["V_PlateCarrierIA1_dgtl",nil,7500],

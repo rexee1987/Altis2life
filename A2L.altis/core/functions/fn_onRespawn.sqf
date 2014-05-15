@@ -52,6 +52,8 @@ if(life_is_arrested) then
 
 _unit addRating 100000;
 
+life_holstered = false;
+
 [[_unit,life_sidechat,playerSide],"STS_fnc_managesc",false,false] spawn life_fnc_MP;
 [] call life_fnc_hudUpdate;
 cutText ["","BLACK IN"];

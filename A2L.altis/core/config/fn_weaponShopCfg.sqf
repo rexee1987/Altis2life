@@ -24,7 +24,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != west): {"You are not a cop!"};
+			case (playerSide != west): {"Du gehörst nicht zur Polizei!"};
 			default
 			{
 				["Altis Cop Shop",
@@ -51,7 +51,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != west): {"You are not a cop!"};
+			case (playerSide != west): {"Du gehörst nicht zur Polizei!"};
 			case (__GETC__(life_coplevel) < 2): {"You are not at a patrol officer rank!"};
 			default
 			{
@@ -80,7 +80,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != west): {"You are not a cop!"};
+			case (playerSide != west): {"Du gehörst nicht zur Polizei!"};
 			case (__GETC__(life_coplevel) < 3): {"You are not at a sergeant rank!"};
 			default
 			{
@@ -129,7 +129,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != west): {"You are not a cop!"};
+			case (playerSide != west): {"Du gehörst nicht zur Polizei!"};
 			case (__GETC__(life_coplevel) < 4): {"You are not at a detective rank!"};
 			default
 			{
@@ -141,6 +141,8 @@ switch(_shop) do
 						["30Rnd_65x39_caseless_mag",nil,200],
 						["arifle_MXC_F",nil,32000],
 						["30Rnd_65x39_caseless_mag",nil,200],
+						["arifle_MX_SW_F","GSG9 MX_SW",32000],
+						["100Rnd_65x39_caseless_mag",100],
 						["srifle_EBR_F",nil,35000],
 						["20Rnd_762x51_Mag",nil,200],
 						["srifle_DMR_01_F",nil,45000],
@@ -182,7 +184,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != west): {"You are not a cop!"};
+			case (playerSide != west): {"Du gehörst nicht zur Polizei!"};
 			case (__GETC__(life_coplevel) < 5): {"You are not at a lieutenant rank!"};
 			default
 			{
@@ -193,7 +195,11 @@ switch(_shop) do
 						["arifle_MX_F",nil,30000],
 						["30Rnd_65x39_caseless_mag",nil,200],
 						["arifle_MXC_F",nil,32000],
+						["arifle_MX_GL_Black_F","GSG9 MX Traenengas",32000],
+						["1Rnd_SmokeYellow_Grenade_shell",nil,200],
 						["30Rnd_65x39_caseless_mag",nil,200],
+						["arifle_MX_SW_F","GSG9 MX_SW",32000],
+						["100Rnd_65x39_caseless_mag",100],
 						["srifle_GM6_F",nil,30000],
 						["5Rnd_127x108_Mag",nil,200],
 						["srifle_EBR_F",nil,35000],
@@ -238,7 +244,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != west): {"You are not a cop!"};
+			case (playerSide != west): {"Du gehörst nicht zur Polizei!"};
 			case (__GETC__(life_coplevel) < 6): {"You are not at a captain rank or higher!"};
 			default
 			{
@@ -252,7 +258,11 @@ switch(_shop) do
 						["30Rnd_9x21_Mag",nil,100],
 						["arifle_MX_F",nil,30000],
 						["30Rnd_65x39_caseless_mag",nil,200],
-						["arifle_MXC_F",nil,32000],
+						["arifle_MX_SW_F","GSG9 MX_SW",32000],
+						["100Rnd_65x39_caseless_mag",100],
+						["arifle_MXM_Black_F","GSG9 MXM",32000],
+						["arifle_MX_GL_Black_F","GSG9 MX Traenengas",32000],
+						["1Rnd_SmokeYellow_Grenade_shell",nil,200],
 						["30Rnd_65x39_caseless_mag",nil,200],
 						["arifle_TRG20_Holo_F",nil,33000],
 						["30Rnd_556x45_Stanag",nil,200],
@@ -268,6 +278,8 @@ switch(_shop) do
 						["7Rnd_408_Mag",nil,200],
 						["LMG_Mk200_F",nil,45000],
 						["200Rnd_65x39_cased_Box",nil,500],
+						["LMG_Zafir_F",nil,55000],
+						["150Rnd_762x51_Box",nil,500],
 						["optic_Holosight",nil,1200],
 						["optic_Arco",nil,1800],
 						["optic_MRCO",nil,1800],
@@ -314,7 +326,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != civilian): {"You are not a cop!"};
+			case (playerSide != civilian): {"Du bist kein Rebelle!"};
 			case (!license_civ_rebel): {"You don't have a Rebel training license!"};
 			default
 			{

@@ -197,6 +197,12 @@ switch(life_veh_shop) do
 		_dir = markerDir "cop_air_2";
 	};
 	
+	case "mil_air_1":
+	{
+		_sp = getMarkerPos "mil_air_1";
+		_dir = markerDir "mil_air_1";
+	};
+	
 	case "reb_v_1":
 	{
 		_sp = getMarkerPos "reb_v_1";

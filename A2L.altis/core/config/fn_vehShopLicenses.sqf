@@ -30,6 +30,7 @@ switch (life_veh_shop) do
 	case "civ_air_2": {_ret = license_civ_air;};
 	case "cop_air_1": {_ret = license_cop_air;};
 	case "cop_air_2": {_ret = license_cop_air;};
+	case "mil_air_1": {_ret = license_cop_air;};
 	case "donator_1": {_ret = true;};
 	case "donator_2": {_ret = true;};
 	case "civ_truck_1":	{_ret = license_civ_truck;};

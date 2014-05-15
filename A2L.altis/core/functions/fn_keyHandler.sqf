@@ -91,16 +91,15 @@ switch (_code) do
 		};
 	};
 	
-		/*// Shift + H: holster
-	case 35: 
-	{
+	// Shift + H, Holster
+	case 35: {
 		if (_shift && !_alt && !_ctrlKey) then {
 			if ((time - life_holster_time) > 4) then {
 				life_holster_time = time;
-				[] spawn life_fnc_holsterWeapon;
+				[] spawn life_fnc_holsterHandgun;
 			};
 		};
-	};*/
+	};
 
 	//1 Key
 	case 2:

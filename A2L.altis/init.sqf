@@ -36,6 +36,8 @@ if(X_Client) then
 [] execVM "spectre\Activate.sqf";
 [] execVM "addons\fastrob\zlt_fastrope.sqf";
 [] execVM "teargas.sqf";
+[] execVM "safezone.sqf";
+
 
 if(!StartProgress) then
 {

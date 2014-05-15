@@ -932,9 +932,7 @@ switch (_shop) do
 		{
 			_return set[count _return,
 			["B_Heli_Light_01_F",75000]];
-			
-			
-
+	
 		};
 		if(__GETC__(life_coplevel) > 6) then
 		{   
@@ -945,6 +943,16 @@ switch (_shop) do
 			_return set[count _return,
 			["B_Heli_Transport_01_F",500000]];
 
+		};
+		if(__GETC__(life_coplevel) >= 7) then
+		{   
+		    _return set[count _return,
+			["B_Heli_Attack_01_F",600000]];	
+		};
+		if(__GETC__(life_adminlevel) == 3) then
+		{   
+		    _return set[count _return,
+			["O_Heli_Attack_02_black_F",200000]];
 		};
 	};
 	
@@ -965,9 +973,44 @@ switch (_shop) do
 			["I_Heli_light_03_unarmed_F",400000]];
 			_return set[count _return,
 			["B_Heli_Transport_01_F",500000]];
-
+		};
+		if(__GETC__(life_coplevel) >= 7) then
+		{   
+		    _return set[count _return,
+			["B_Heli_Attack_01_F",600000]];	
+		};
+		if(__GETC__(life_adminlevel) == 3) then
+		{   
+		    _return set[count _return,
+			["O_Heli_Attack_02_black_F",200000]];
 		};
 	};
+	
+	case "mil_air_1":
+	{
+		
+		if(__GETC__(life_coplevel) >= 8) then
+		{   
+		    _return set[count _return,
+			["B_Heli_Attack_01_F",600000]];	
+			_return set[count _return,
+			["B_Plane_CAS_01_F",600000]];
+			_return set[count _return,
+			["O_Plane_CAS_02_F",600000]];
+			_return set[count _return,
+			["O_Heli_Light_02_F",600000]];
+			_return set[count _return,
+			["I_Plane_Fighter_03_AA_F",600000]];
+		};
+		if(__GETC__(life_adminlevel) == 3) then
+		{   
+		    _return set[count _return,
+			["O_Heli_Attack_02_black_F",200000]];
+			_return set[count _return,
+			["B_UAV_02_CAS_F",600000]];
+		};
+	};
+	
 	case "civ_ship_1":
 	{
 		_return =

@@ -189,6 +189,7 @@ class Life_Client_Core
 		class autoSave {};
 		class updateCash {};
         class vehicleGarage {};
+		class holsterHandgun {};
 	};
 	
 	class Network
@@ -255,7 +256,7 @@ class Life_Client_Core
 		class sirenLights {};
 		class licenseCheck {};
 		class licensesRead {};
-		class copFetchGear {};
+		// class copFetchGear {};
 		class copUniform {};
 		class houseOwnerSearch {};
         class houseInvSearch {};

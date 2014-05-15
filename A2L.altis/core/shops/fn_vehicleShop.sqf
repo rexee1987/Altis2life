@@ -165,6 +165,12 @@ switch (life_veh_shop) do
 		ctrlSetText[2301,"Cop Air Shop"];
 	};
 	
+	case "mil_air_1":
+	{
+		if(playerSide == civilian) exitWith {_kill =  "Du bist nicht im Militär."};
+		ctrlSetText[2301,"Militär Air Shop"];
+	};
+	
 	case "fed_air":
 	{
 		if(playerSide == civilian) exitWith {_kill =  "You are not a cop."};

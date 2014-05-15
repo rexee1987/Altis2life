@@ -1,4 +1,4 @@
-﻿/*
+/*
 	File: fn_saveGear.sqf
 	Author: Bryan "Tonic" Boardwine
 	
@@ -10,26 +10,43 @@ private["_allowedItems","_primary","_handgun","_magazines","_uniform","_vest","_
 //Pre-approved weapons / attachments
 _allowedItems =
 [
-	"arifle_sdar_F",
-	"hgun_P07_snds_F",
-	"hgun_p07_F",
-	"arifle_MX_F",
-	"SMG_01_F",
-	"SMG_02_ACO_F",
-	"optic_Holosight",
-	"acc_flashlight",
-	"arifle_MX_F",
-	"arifle_MXC_F",
-	"arifle_MXM_F",
-	"srifle_EBR_F",
-	"arifle_MX_SW_Black_Hamr_pointer_F",
-	"srifle_LRR_f",
-	"srifle_LRR_SOS_f",
-	"optic_Arco",
-	"optic_MRCO",
-	"muzzle_snds_H",
-	"200RND_65x39_Cased_box_Trac",
-	"muzzle_snds_L"
+						"hgun_ACPC2_F",
+						"9Rnd_45ACP_Mag",
+						"hgun_PDW2000_F",,
+						"30Rnd_9x21_Mag",
+						"SMG_02_F",
+						"arifle_MX_F",
+						"arifle_MX_SW_F",
+						"arifle_MXM_Black_F",
+						"arifle_MX_GL_Black_F",
+						"arifle_TRG20_Holo_F",
+						"arifle_Katiba_F",
+						"srifle_GM6_F",,
+						"srifle_EBR_F",
+						"srifle_DMR_01_F",
+						"srifle_LRR_SOS_F",
+						"LMG_Mk200_F",
+						"LMG_Zafir_F",
+						"optic_Holosight",
+						"optic_Arco",
+						"optic_MRCO",
+						"optic_Hamr",
+						"optic_Aco",
+						"optic_ACO_grn",
+						"optic_SOS",
+						"acc_flashlight",
+						"acc_pointer_IR",
+						"ItemWatch",
+						"ItemMap",
+						"ItemGPS",
+						"ToolKit",
+						"FirstAidKit",
+						"Medikit",
+						"Binocular",
+						"Rangefinder",
+						"NVGoggles",
+						"launch_RPG32_F",
+						"optic_Nightstalker"
 ];
 
 //Old format / code

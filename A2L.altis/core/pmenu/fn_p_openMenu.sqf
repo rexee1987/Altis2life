@@ -21,6 +21,8 @@ switch(playerSide) do
 	{
 		ctrlShow[2012,false];
 		ctrlShow[9800,false]; 
+		ctrlShow[2020,false];
+		ctrlShow[2021,false];
 	};	
 };
 

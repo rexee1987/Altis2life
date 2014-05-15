@@ -19,5 +19,6 @@ __CONST__(HOUSING_DONATOR_LEVEL,HOUSING_DONATOR_LEVEL);
 life_public_houses = [
     //"542120",     // example
 	//"542121"      // example
-	"1575590"
+	"1575590",
+	"1575043"
 ];

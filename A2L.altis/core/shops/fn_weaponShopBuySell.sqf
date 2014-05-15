@@ -6,7 +6,7 @@
 	Master handling of the weapon shop for buying / selling an item.
 */
 private["_price","_item","_itemInfo","_bad"];
-if((lbCurSel 38403) == -1) exitWith {hint "You need to select an item to buy/sell."};
+if((lbCurSel 38403) == -1) exitWith {hint "Sie haben nichts ausgewählt!"};
 _price = lbValue[38403,(lbCurSel 38403)]; if(isNil "_price") then {_price = 0;};
 _item = lbData[38403,(lbCurSel 38403)];
 _itemInfo = [_item] call life_fnc_fetchCfgDetails;
@@ -17,7 +17,7 @@ if((_itemInfo select 6) != "CfgVehicles") then
 {
 	if((_itemInfo select 4) in [4096,131072]) then
 	{
-		if(!(player canAdd _item) && (uiNamespace getVariable["Weapon_Shop_Filter",0]) != 1) exitWith {_bad = "You don't have enough room for that item."};
+		if(!(player canAdd _item) && (uiNamespace getVariable["Weapon_Shop_Filter",0]) != 1) exitWith {_bad = "Sie haben nicht genug Platz oder Geld."};
 	};
 };
 
@@ -32,7 +32,7 @@ if((uiNamespace getVariable["Weapon_Shop_Filter",0]) == 1) then
 }
 	else
 {
-	if(_price > life_cash) exitWith {hint "You do not have enough money!"};
+	if(_price > life_cash) exitWith {hint "Sie haben nicht genug Geld!!"};
 	[_item,true,false,true,false] call life_fnc_handleItem;
 	hint parseText format["You bought a %1 for <t color='#8cff9b'>$%2</t>",_itemInfo select 1,[_price] call life_fnc_numberText];
 	life_cash = life_cash - _price;

@@ -2,7 +2,7 @@
 if(player diarySubjectExists "rules")exitwith{};
 
 player createDiarySubject ["alh","Altis2life"];
-player createDiarySubject ["whe","WhiteHonorElite"];
+player createDiarySubject ["whe","Teamspeak/Webseite"];
 player createDiarySubject ["changelog","Change Log"];
 player createDiarySubject ["rhkatalog","Rohstoffkatalog"];
 player createDiarySubject ["serverrules","Grundregeln"];
@@ -37,28 +37,28 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Aktuelle Version",
 				"
-					Altis2life v3.0.1.1 (11.05.2014)
+					Altis2life v3.0.1.3 (15.05.2014)
 				"
 		]
 	];
 	
 		player createDiaryRecord ["mil",
 		[
-			"Das Militaer", 
+			"Das Militär", 
 				"
-				Das Militaer besteht aus Mitgliedern der Community, welche sich daran beteiligen den Server und Co zu verwalten.<br/>
-				Ein einfaches Beitreten ist somit nicht Moeglich!<br/><br/>
+				Das Militär besteht aus Mitgliedern der Community, welche sich daran beteiligen den Server und Co zu verwalten.<br/>
+				Ein einfaches Beitreten ist somit nicht möglich!<br/><br/>
 				"
 		]
 	];
 	
 	player createDiaryRecord ["mil",
 		[
-			"Regelwerke des Miltaer", 
+			"Regelwerke des Miltär", 
 				"
-				1.) Das Militaer fuehrt Straßenkontrollen wie die Polizei <br/>
-				2.) Das Militaer ist weisungsbefugt, insofern Notstand ausgerufen wurde oder<br/>
-				3.) Die Polizei das Militaer anfordert<br/><br/>
+				1.) Das Militär fuehrt Straßenkontrollen wie die Polizei <br/>
+				2.) Das Militär ist weisungsbefugt, insofern Notstand ausgerufen wurde oder<br/>
+				3.) Die Polizei das Militär anfordert<br/><br/>
 				"
 		]
 	];
@@ -69,8 +69,10 @@ player createDiarySubject ["controls","Controls"];
 				"
 				1.) General: rexee87 ( A2L ) <br/>
 				2.) Generalmajor: Banshee ( A2L )<br/>
-				3.) 1ndGeneralleutnant: Pabelo_Escobar ( A2L ) <br/>
-				4.) Brigadegeneral: Bienelvlaya ( A2L )<br/><br/>
+				3.) 1nd Generalleutnant: Pablo_Escobar ( A2L ) <br/>
+				4.) 2nd Generalleutnant: Sven ( A2L ) <br/>
+				5.) 3nd Generalleutnant: pro.aggro ( A2L ) <br/>
+				6.) 4nd Generalleutnant: Biene|\/|aya ( A2L ) <br/><br/>
 				"
 		]
 	];
@@ -94,11 +96,10 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Safe Zones",
 				"
-					In diesen Gebieten ist es nicht erlaubt jemanden zu töten oder zu überfallen.<br/><br/>
-					
+					In einer Safezone ist Schusswaffengebrauch sowie jegliche kriminelle Handlung untersagt!
 					Alle Bankautomaten <br/>
 					Polizei HQ´s<br/>
-					Kavala<br/>
+					Kavala (Makierter Bereich)<br/>
 					Spender Shop <br/><br/>
 				"
 		]
@@ -138,7 +139,7 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Boote", 
 				"
-				Folgende Vergehen können zu einem Kick/Ban führen.<br/><br/>
+				Folgende Vergehen können zu einem Kick/Bann führen.<br/><br/>
 				
 				1. Wiederholtes pushen eines Bootes ohne die Erlaubnis<br/>
 				2. Pushen eines Bootes mit der Absicht jemanden zu verletzen. Das ist KEIN RP, sondern eine Lücke in der Spielmechanik.<br/>
@@ -151,7 +152,7 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Luftfahrt", 
 				"
-				Folgende Vergehen können zu einem Kick/Ban führen<br/><br/>
+				Folgende Vergehen können zu einem Kick/Bann führen<br/><br/>
 				
 				1. Beabsichtigtes fliegen in Objekte, andere Helikopter, Fahrzeuge oder Gebäude.<br/>
 				2. Das fliegen über Polizeilich und Staatlichen Sicherheitsbereichen ist verboten. Vorsicht Schusswaffengebrauch!<br/>
@@ -164,9 +165,9 @@ player createDiarySubject ["controls","Controls"];
 	
 	player createDiaryRecord ["serverrules",
 		[
-			"Fahrezeuge", 
+			"Fahrzeuge", 
 				"
-				Folgende Vergehen können zu einem Kick/Ban führen<br/><br/>
+				Folgende Vergehen können zu einem Kick/Bann führen<br/><br/>
 				
 				1. Beabsichtigtes Überfahren eines Spielers (VRDM). Wenn durch Unachtsamkeit ein Spieler überfahren wird, wird dieses als Unfall gewertet. Darauf folgende Entscheidungen werden von der Polizei getroffen.<br/>
 				2. Sich vor ein Fahrzeug zu schmeißen um verletzt oder getötet zu werden ist Verboten.<br/>
@@ -208,6 +209,8 @@ player createDiarySubject ["controls","Controls"];
 				6. Erschießen eines Spielers der Anweisungen folgen soll ohne ihm die dafür nötige Zeit zu lassen ist kein RP und wird als RDM gewertet.<br/>
 			    7. Auf Bandit Island, kann die Polizei nicht eingreifen und ist das töten von anderen Spieler erlaubt.<br/><br/>
 				
+				Im Rebellengebiet ist RDM erlaubt!<br/><br/>
+				
 				Diese Entscheidungen wurden aufgrund der Erfahrung von den Administratoren getroffen.<br/><br/>
 				"
 		]
@@ -218,7 +221,7 @@ player createDiarySubject ["controls","Controls"];
 				"
 				Die New Life Rule gilt für die Polizei und für Zivilisten!<br/><br/>
 				
-				Folgende Vergehen können zu einem Kick/Ban führen.<br/><br/>
+				Folgende Vergehen können zu einem Kick/Bann führen.<br/><br/>
 
 				1. Wenn du getötet wurdest musst du 10 Minuten warten bevor du zu deinem alten Geschehen/Einsatz zurückkehren darfst!<br/>
 				2. Wenn du während des Roleplays stirbst, sind deine Verbrechen vergessen.<br/>
@@ -242,7 +245,7 @@ player createDiarySubject ["controls","Controls"];
 		]
 	];
 	
-// WhiteHonorElite
+// Teamspeak/Webseite
 
 	player createDiaryRecord ["whe",
 		[
@@ -281,7 +284,7 @@ player createDiarySubject ["controls","Controls"];
 // Police Section
 	player createDiaryRecord ["policerules",
 		[
-			"Kriesen Verhandlung und Sprachmittlung",
+			"Krisen Verhandlung und Sprachmittlung",
 				"
 				Verhandlungen müssen von einem Sergeant abgehalten werden. Wenn keiner Verfügbar ist muss der Polizist vor Ort mit dem höchsten Dienstgrad die Situation übernehmen.<br/><br/>
 				"
@@ -373,15 +376,15 @@ player createDiarySubject ["controls","Controls"];
 	
 	player createDiaryRecord ["policerules",
 		[
-			"Vehicles", 
+			"Fahrzeuge", 
 				"
-				1. Vehicles in the parking lot, or are reasonably parked elsewhere should be left alone.<br/>
-				2. Vehicles that look abandoned, broken, with no driver, can be impounded.<br/>
-				3. Boats should be parked reasonably on shore.<br/>
-				4. Any vehicle that hasn't moved in a significant amount of time may be impounded.<br/>
-				5. Impounding is an essential job for a cop, it helps keep the server clean and less laggy.<br/>
-				6. If in doubt, always search the vehicle and message the owner(s) before impounding.<br/>
-				7. Police speedboats or Hunter HMGs may be used to assist in apprehending criminals. The weapon should be used to disable vehicles, not to blow them up.<br/><br/>
+				1. Fahrzeuge, die auf einem Parkplatz oder irgendwoanders ORDENTLICH abgestellt wurden, sind nicht zu beachten bzw. nicht zu beschlagnahmen.<br/>
+				2. Fahrzeuge, die verlassen, kaputt und ohne Fahrer in der Nähe auf der Karte stehen, sind zu beschlagnahmen!<br/>
+				3. Boote sollten vernünftig am Ufer geparkt werden.<br/>
+				4. Jedes Fahrzeug, dass laengere Zeit nicht bewegt wurde, wird beschlagnahmt.<br/>
+				5. Das Beschlagnahmen ist eine wichtige Aufgabe für die Polizei! Es haelt den Server sauber.<br/>
+				6. Im Zweifelsfall ist der Besitzer des Fahrzeugs zu ermitteln und nachzufragen, was mit dem Fahrzeug passieren soll.<br/>
+				7. Speedboote und Hunter HMGs der Polizei sind nur als Unterstützung anzufordern. Die Waffen werden nur benutzt um Fahrzeuge von Kriminellen zu stoppen/beschaedigen und nicht um sie zu zerstoeren!<br/><br/>
 				"
 		]
 	];
@@ -403,68 +406,66 @@ player createDiarySubject ["controls","Controls"];
 	
 	player createDiaryRecord ["policerules",
 		[
-			"City Protocol", 
+			"Stadt Protokoll", 
 				"
-				1. Officers may patrol major cities - Kavala, Athira, Pyrgos and Sofia.<br/>
-				2. Officers may stop by the car shop to make sure there are no cars that need to be impounded.<br/>
-				3. Officers may not stand around or loiter in the centre of town.<br/>
-				4. Officers may enter the town in a large number should a rebellious act occur. After the area is clear, they need to leave the town again.<br/>
-				5. Martial law may not be declared at any time.<br/>
-				6. The Police HQ buildings are illegal for civilians to enter without authorization, however it is NOT illegal for civilians to be nearby unless they are causing a nuisance.<br/><br/>
+				1. Polizisten sollten in den Hauptstaedten patrouillieren - Kavala, Agios, Athira, und Sofia.<br/>
+				2. Polizisten sollten beim Autohaendler vorbeischauen und ggf. nicht benoetigte Fahrzeuge beschlagnahmen.<br/>
+				3. Polizisten duerfen nicht mitten in der Stadt herusmtehen oder herumlungern.<br/>
+				4. Polizisten koennen, z.B. auf Grund eines Aufstands, mit einer grossen Anzahl in eine Stadt einmaschieren. Nachdem die Situation unter Kontrolle ist, ist die Stadt wieder zu verlassen.<br/>
+				5. Das Kriegsrecht kann unter bestimmten Vorraussetzungen ausgerufen werden.<br/>
+				6. Die Polizei Hauptquartiere sind illegal fuer Zivilisten, die sich ohne Authorisierung Zutritt verschaffen. Es ist nicht illegal sich in der Nahe aufzuhalten (AUSSERHALB!) solange keine Belaestigung von den Zivilisten ausgeht.<br/><br/>
 				"
 		]
 	];
 	
 	player createDiaryRecord ["policerules",
 		[
-			"Arresting and Ticketing",
+			"Festnehmen und Strafzettel",
 				"
-				Arresting should be done to criminals who are considered a danger to themselves or others.<br/><br/>
+				Zivilisten, die eine Gefahr fuer sich selbst oder andere darstellen, sind sofort festzunehmen.<br/><br/>
 
-				1. You may not arrest someone if you have given them a ticket and they paid it.<br/>
-				2. You must tell the suspect why they are being arrested before you arrest them.<br/>
-				3. If a civilian is wanted, you may arrest them. Do not kill them, unless the situation falls under the 'Use of Lethal Force' section.<br/><br/>
+				1. Wenn die Stafe bezahlt ist, ist die Person freizulassen.<br/>
+				2. Es muss ein Grund fuer die Festnahme genannt werden.<br/>
+				3. Wenn ein Zivilist auf der Wantedlist stehn, so ist er sofort festzunehmen. Er sollte nicht getoetet werden, ausser die Situation laesst es nicht anders zu.<br/><br/>
 
 
-				Ticketing a civilian is considered a warning for the civilian. If they break a law, but do not pose a threat to anyone, you may ticket a civilian.<br/><br/>
+				Strafzettel gelten als Warnung bzw Denkzettel. Wenn Zivilisten das Gesetz berechen, aber keine Gefahr fuer sich selbst oder andere darstellen, ist ein Strafzettel auszustellen.<br/><br/>
 
-				1. Tickets must be a reasonable price.<br/>
-				2. Ticket prices should be based off of the crimes committed.<br/>
-				3. Refusal to pay a legit ticket is grounds for arrest.<br/>
-				4. Giving a civilian and illegitimate ticket, such as $100k for speeding, etc., is not allowed and will result in your removal from the police department.<br/><br/>
+				1. Die Hoehe des Strafzettels muss im Verhaeltnis zur Tat stehen.<br/>
+				2. Wird der Strafzettel nicht bezahlt, so ist der Taeter der JVA zu uebergeben.<br/>
+				3. Sollten illegale Strafzettel ausgestellt werden (z.B. $500k fuer Ueberschreiten der Hoechstgeschwindigkeit), so wird der entsprechende Beamte sofort aus dem Polizeidienst entlassen.<br/><br/>
 				
-				A complete list of all crimes and the appropriate punishments should be given to officers during training. If in doubt, or if you have not been trained, ask a higher ranking officer what to do.<br/><br/>
+				Eine komplette Liste aller Verbrechen und den dazugehoehringen Strafen sollte den Polizisten waehrend der Ausbildung ausgehaendigt werden. Im Zweifelsfall sollte der ranghoechste Beamte gefragt werden.<br/><br/>
 				
-				The list is available at crime.sealteamsloth.com<br/><br/>
+				Die Liste gibt es unter forum.altis2life.de<br/><br/>
 				"
 		]
 	];
 		
 	player createDiaryRecord ["policerules",
 		[
-			"Weapons", 
+			"Waffen", 
 				"
-				A cop is NEVER allowed to supply civilians with weapons. This will get you banned from the server and removed from being a cop.<br/><br/>
+				Polizisten ist es untersagt Zivilisten mit Waffen auszustatten. Jeder Versuch wird mit einem Bann bestraft!<br/><br/>
 
-				Legal Weapons for Civilians to carry with a permit:<br/>
-				1. P07<br/>
-				2. Rook<br/>
-				3. ACP-C2<br/>
-				4. Zubr<br/>
-				5. 4-five<br/>
-				6. PDW2000<br/><br/>
+				Legal Waffen Zivilisten:<br/>
+				1. ROOK-40 9mm<br/>
+				2. ACP C2 .45<br/>
+				3. PDW2000<br/>
+				4. SDAR 5,56mm<br/>
+				5. 4-five<br/><br/>
 
-				Any other weapon (Including Silenced P07 [Considered a Police Weapon]) is illegal.<br/><br/>
+				Jede andere Waffe ist illegal.<br/><br/>
 
-				1. Civilians are not allowed to have a weapon out within the town limits.<br/>
-				2. Civilians may have a gun out when they are not in the town. However they should submit to a license search if confronted by an officer and should have the gun lowered (Press Ctrl Twice).<br/><br/>
+				1. Zivilians müssen die Waffe innerorts im Rucksack oder Auto transportieren (VORSICHT VOR DIEBEN!).<br/>
+				2. Zivilisten dürfen ausserorts die Waffen offen tragen. Sie sollten einer Lizenzueberpruefung bei Begegnung mit der Polizei zustimmen und die Waffe senken! (Strg doppelt druecken).<br/><br/>
 				"
 		]
 	];
 	
 	player createDiaryRecord ["policerules",
 		[
-                "Einsatz von NICHT Tödlicher Gewalt",
+                "Einsatz von NICHT tödlicher Gewalt",
 				"
 				Momentan ist der Taser (Silenced P07) die einzige Möglichkeit nichttödliche Gewalt anzuwenden.<br/><br/>
 
@@ -479,15 +480,15 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Raiding/Camping",
 				"
-		        Raiden ist das Eingreifen mehrerer Polizeibeamten, auf einer Fläche von hoher krimineller Aktivität um illegale handulungen zu stoppen.<br/><br/>
+		        Raiden ist das Eingreifen mehrerer Polizeibeamten, auf einer Fläche von hoher krimineller Aktivität um illegale Handlungen zu stoppen.<br/><br/>
 
 				1. Man muss mindestens zu dritt sein und einer sollte ein Detective sein, um ein illegales Gebiet zuraiden.<br/>
-				2. Alle Zivilisten bei einem Raid, müssen gefesselt und durchsucht werden. Wenn nichts gefunden wird, müssen sie wieder freigelassen werden.<br/>
-				3. Wenn Illegale Items während der Untersuchung gefunden werden, können sie mit den Ticket ausschreiben fortfahren, und bei nicht bezahlen des Tickets mit den Inhaftieren.<br/>
+				2. Bei einem Raid müssen alle Zivilisten gefesselt und durchsucht werden. Wenn nichts gefunden wird, müssen sie wieder freigelassen werden.<br/>
+				3. Wenn illegale Items während der Untersuchung gefunden werden, wird ein entsprechendes Ticket verhängt. Wird das Ticket nicht bezahlt, geht es ins Gefängnis.<br/>
 				5. Tödliche Gewalt ist nur zulässig, wie es unter 'Anwendung von Gewalt' beschrieben wird.<br/>
-				6. Nachdem der Bereich sicher ist, müssen die Beamten das Gebiet verlassen.<br/>
+				6. Nachdem der Bereich sicher ist, müssen die Beamten das Gebiet wieder verlassen.<br/>
 				7. Ein Bereich kann innerhalb von 20 Minuten nach einer früheren Razzia nicht mehr überfallen werden.<br/>
-				8. Wenn die Razzia gescheitert ist (Alle Beamten sind gestorben), gilt der 20-Minuten-Timer für alle dieser Beamten.<br/>
+				8. Wenn die Razzia gescheitert ist (Alle Beamten sind gestorben), gilt der 10-Minuten-Timer für all diese Beamten.<br/>
 				9. Unterstützung kann gerufen werden, dies gilt aber nicht für die Verstorbenen Beamten(siehe 'New Life Regel').<br/><br/>
 
 				Camping wird als verlängerten Aufenthalt eines Beamten definiert.<br/><br/>
@@ -504,24 +505,16 @@ player createDiarySubject ["controls","Controls"];
 				"
 				Der ranghöchste Polizist hat das Kommando .<br/><br/>
 
-				1. Chief of Police<br/>
-				2. Assistant Chief<br/>
-				3. Colonel<br/>
-				4. Lieutenant Colonel<br/>
-				5. Major<br/>
+				1. Rekrut<br/>
+				2. Offizier<br/>
+				3. Sergeant<br/>
+				4. Detective<br/>
+				5. Lieutenant<br/>
 				6. Captain<br/>
-				7. First Lieutenant<br/>
-				8. Second Lieutenant<br/>
-				9. Sergeant Major<br/>
-				10. Master Sergeant<br/>
-				11. Gunnery Sergeant<br/>
-				12. Saff Sergeant<br/>
-				13. Sergeant<br/>
-				14. Detective<br/>
-				15. Officer<br/>
-				16. Rekrut<br/><br/>
-
+				7. Cop Leitung<br/>
+				8. GSG9 / KSK<br/>
 				.<br/><br/>
+				
 				"
 		]
 	];
@@ -590,15 +583,18 @@ player createDiarySubject ["controls","Controls"];
 			"Illegale Waffen",
 				"		
 
-				1. MX Series<br/>
-				2. Katiba Series<br/>
-				3. TRG Series<br/>
-				4. Mk.20 Series<br/>
-				5. Mk.18 ABR<br/>
-				6. SDAR Rifle<br/>
-				7. Sting SMG<br/>
-				8. Silenced P07 (Taser)<br/>
-				9. Sprengstoff<br/><br/>
+				1. STING 9mm<br/>
+				2. TRG 20 6,5mm<br/>
+				3. MX 6,5mm<br/>
+				4. MXC 6,5mm<br/>
+				5. KATIBA 6,5mm<br/>
+				6. GM6 LYNX 12,7mm<br/>
+				7. RAHIM 7,62mm<br/>
+				8. M320 LRR.408<br/>
+				9. MK18 ABR 7,62mm<br/>
+				10. MK200 6,5mm<br/>
+				11. RPG-42 ALAMUT<br/>
+				12. Sprengstoffveste<br/><br/>
 				"
 		]
 	];
@@ -610,7 +606,9 @@ player createDiarySubject ["controls","Controls"];
 				1. Schildkröten<br/>
 				2. Kokain<br/>
 				3. Heroin<br/>
-				4. Marihuana<br/><br/>
+				4. Marihuana<br/>
+				5. Organe<br/>
+				6. Atomreste<br/><br/>
 				"
 		]
 	];
@@ -626,6 +624,7 @@ player createDiarySubject ["controls","Controls"];
 				U: Fahrzeug auf-/absperren<br/>
 				F: Sirene(nur als Cop)<br/>
 				T: Kofferraum<br/>
+				links Shift + H: Waffe Holstern <br/>
 				links Shift + R: Festnehmen (nur als Cop)<br/>
 				links Shift + G: K.O. schlagen (nur als Civ)<br/>
 				"

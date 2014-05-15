@@ -351,6 +351,12 @@
 		<Key ID="STR_NOTF_Gathering">
 			<Original>Gathering %1...</Original>
 		</Key>
+		<Key ID="STR_holsterHandgun_np1">
+			<Original>Du kannst nur deine Pistole holstern. Nehme deine Pistole dazu in die Hand ..</Original>
+		</Key>
+		<Key ID="STR_holsterHandgun_ziehe">
+			<Original>Ziehe Pistole</Original>
+		</Key>
 	</Package>
 	<Package name="Player_Interaction">
 		<Key ID="STR_pInAct_Title">
@@ -399,6 +405,9 @@
 		</Key>
 		<Key ID="STR_vInAct_Impound">
 			<Original>Beschlagnahmen</Original>
+			 <Package name="Player_Actions">
+</Key>
+	</Package>
 		</Key>
 	</Package>
 </Project>

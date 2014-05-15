@@ -1,7 +1,7 @@
 #include <macro.h>
 /*
 	File: fn_initCiv.sqf
-	Author: Bryan "Tonic" Boardwine
+	Author: Banshee, Rexee
 	
 	Description:
 	Initializes the civilian.
@@ -32,8 +32,9 @@ if(life_is_arrested) then
 };
 
 // player addRating 9999999;
-
+nul = [this] execVM "no_shooting.sqf";
 [] call life_fnc_zoneCreator;
 [] call life_fnc_initHouses;
+
 // Start Safezone checks
 // [] spawn life_fnc_initSafezone;
