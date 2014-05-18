@@ -41,6 +41,7 @@ switch (_mode) do
 			case "brauen": {_var = "license_civ_brauen"};
 			case "home": {_var = "license_civ_home"};
 			case "adac": {_var = "license_civ_adac"};
+			case "redfaction": {_var = "license_civ_redfaction"};
 			default {_var = ""};
 		};
 	};
@@ -74,6 +75,7 @@ switch (_mode) do
 			case "license_civ_brauen": {_var = "brauen"};
 			case "license_civ_home": {_var = "home"};
 			case "license_civ_adac": {_var = "adac"};
+			case "license_civ_redfaction": {_var = "redfaction"};
 			default {_var = ""};
 		};
 	};

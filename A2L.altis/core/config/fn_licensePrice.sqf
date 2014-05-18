@@ -36,4 +36,5 @@ switch (_type) do
 	case "brauen": {5000};
 	case "home": {200000};
 	case "adac": {200000};
+	case "redfaction": {800000};
 };

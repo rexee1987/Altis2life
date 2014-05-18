@@ -12,7 +12,7 @@ _allowedItems =
 [
 						"hgun_ACPC2_F",
 						"9Rnd_45ACP_Mag",
-						"hgun_PDW2000_F",,
+						"hgun_PDW2000_F",
 						"30Rnd_9x21_Mag",
 						"SMG_02_F",
 						"arifle_MX_F",
@@ -21,7 +21,7 @@ _allowedItems =
 						"arifle_MX_GL_Black_F",
 						"arifle_TRG20_Holo_F",
 						"arifle_Katiba_F",
-						"srifle_GM6_F",,
+						"srifle_GM6_F",
 						"srifle_EBR_F",
 						"srifle_DMR_01_F",
 						"srifle_LRR_SOS_F",

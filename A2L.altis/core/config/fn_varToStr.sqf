@@ -71,6 +71,7 @@ switch (_var) do
 	case "life_inv_birneVerarbeitet": {"Birnen Gewaschen"};
     case "life_inv_storage1": {"Haus Inventar"};
     case "life_inv_storage2": {"Haus Inventar gross"};
+	
     	
 
 	
@@ -99,4 +100,5 @@ switch (_var) do
 	case "license_civ_brauen": {"Brau-Meister-Lizenz"};
 	case "license_civ_home": {"Haus-Lizenz"};
 	case "license_civ_adac": {"ADAC Lizenz"};
+	case "license_civ_redfaction": {"RedFaction Mitgliedschaft"};
 };

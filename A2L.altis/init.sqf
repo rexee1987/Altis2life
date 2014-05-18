@@ -37,6 +37,8 @@ if(X_Client) then
 [] execVM "addons\fastrob\zlt_fastrope.sqf";
 [] execVM "teargas.sqf";
 [] execVM "safezone.sqf";
+//[] execVM "addons\IgiLoad\IgiLoad.sqf";
+
 
 
 if(!StartProgress) then

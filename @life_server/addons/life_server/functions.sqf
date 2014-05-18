@@ -100,7 +100,7 @@ compileFinal "
 	if(isNull _unit) exitWith {};
 	if((lbCurSel 2703) == -1) exitWith {hint ""You need to select someone to transfer to""};
 	if(isNil ""_unit"") exitWith {hint ""The player selected doesn't seem to exist?""};
-	if(_val > 999999) exitWith {hint ""You can't transfer more then $999,999"";};
+	if(_val > 9999999) exitWith {hint ""You can't transfer more then $9,999,999"";};
 	if(_val < 0) exitwith {};
 	if(!([str(_val)] call fnc_isnumber)) exitWith {hint ""That isn't in an actual number format.""};
 	if(_val > life_atmcash) exitWith {hint ""You don't have that much in your bank account!""};

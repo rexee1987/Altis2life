@@ -187,7 +187,8 @@ life_licenses =
 	["license_civ_cement","civ"],
 	["license_civ_brauen","civ"],
 	["license_civ_home","civ"],
-	["license_civ_adac","civ"]
+	["license_civ_adac","civ"],
+	["license_civ_redfaction", "civ"]
 ];
 
 //Setup License Variables

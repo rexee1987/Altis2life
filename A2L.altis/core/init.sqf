@@ -66,6 +66,7 @@ diag_log "Display 46 Found";
 (findDisplay 46) displayAddEventHandler ["KeyDown", "_this call life_fnc_keyHandler"];
 player addRating 99999999;
 //[] execVM "core\client\init_survival.sqf";
+[] execVM "core\real_weather.sqf";
 _handle = [] spawn compile PreprocessFileLineNumbers "core\config_housing.sqf";
 diag_log "::Life Client:: Housing Variables";
 waitUntil {scriptDone _handle};
@@ -89,6 +90,7 @@ life_fnc_moveIn = compileFinal
 [] execVM "core\fn_welcome.sqf";
 // Init automatically saving gear
 [] spawn life_fnc_autoSave;
+_igiload = execVM "addons\IgiLoad\IgiLoadInit.sqf";
 
 // Disable group messages.
 enableRadio false;

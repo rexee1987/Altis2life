@@ -44,6 +44,19 @@ _ret = [
                 ];
         };
         
+		if(license_civ_redfaction && playerSide == civilian) then {
+        _ret = [
+                    ["civ_spawn_2","Rebellenstadt","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+                    ["reb_a1","Ammolofi","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+                    ["reb_a2","Edessa","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+					["civ_spawn_1","Agios","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+					["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+					["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+					["civ_spawn_5","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+					["rf_spawn","RedFactionHQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+                ];
+        };
+		
         //if no rebel license, than can spawn normal loc
         if(!license_civ_rebel && playerSide == civilian) then {
         _ret = [

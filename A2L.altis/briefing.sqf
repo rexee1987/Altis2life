@@ -37,7 +37,7 @@ player createDiarySubject ["controls","Controls"];
 		[
 			"Aktuelle Version",
 				"
-					Altis2life v3.0.1.3 (15.05.2014)
+					Altis2life v3.0.1.4 (17.05.2014)
 				"
 		]
 	];
